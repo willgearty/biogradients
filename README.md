@@ -1,7 +1,7 @@
 This repository contains the required R code and data files to produce all of the analyses and plots in ‘Metabolic tradeoffs control biodiversity gradients through geologic time’   
 Thomas H. Boag, William Gearty & Richard G. Stockey  
   
-Before running these R scripts, we suggest that you download this folder and set it as your R working directory. Required data files should then load when called in each script, and pdf files will save within the same folder.  
+Before running these R scripts, we suggest that you download this folder and set it as your R working directory. Required data files should then load when called in each script, and plot files will save within the same folder.  
 
 ## Diversity-temperature analyses (main text figures 1 & 2, supplementary figures 1-13):  
 Run diversity_temp.R to produce all plots and analyses.  
