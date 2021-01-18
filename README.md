@@ -4,13 +4,14 @@ Thomas H. Boag, William Gearty & Richard G. Stockey
 Before running these R scripts, we suggest that you download this folder and set it as your R working directory. Required data files should then load when called in each script, and plot files will save within the same folder.  
 
 ## Diversity-temperature analyses (main text figures 1 & 2, supplementary figures 1-13):  
-Run diversity_temp.R to produce all plots and analyses.  
+Run `diversity_temp.R` to produce all plots and analyses. Note that the analyses can take many hours to run.  
+You can load `fossil_results.RData` into your environment to skip running all of the analyses.  
 
 ## Metabolic model (main text figure 3, supplementary figures 14-15):  
-Figure 3 - run Metabolic_model.10000.R, then run Metabolic_model_plot.10000.R  
-Figure S14 - run Metabolic_model.10000.supp.R, then run Metabolic_model_plot.10000.supp.R  
-Figure S15 - run Distribution_summary_plots.R  
-Note that Metabolic_model.10000.R and Metabolic_model.10000.supp.R have long runtimes. To reduce these runtimes, the number of subsamples taken in the Monte Carlo can be reduced (e.g. 10,000 to 1000 or lower) to produce similar model results in shorter runtime. 
+Figure 3 - run `Metabolic_model.10000.R`, then run `etabolic_model_plot.10000.R`  
+Figure S14 - run `Metabolic_model.10000.supp.R`, then run `Metabolic_model_plot.10000.supp.R`  
+Figure S15 - run `Distribution_summary_plots.R`  
+Note that `Metabolic_model.10000.R` and `Metabolic_model.10000.supp.R` have long runtimes. To reduce these runtimes, the number of subsamples taken in the Monte Carlo can be reduced (e.g. 10,000 to 1000 or lower) to produce similar model results in shorter runtime. 
 
 ## To replicate the analyses and plots presented here, the following R packages are required:  
 AICcmodvg  
@@ -20,7 +21,7 @@ deSolve
 dispeRse  
 dplyr  
 geosphere   
-ggplot2 
+ggplot2  
 Hmisc  
 MASS  
 mgcv  
@@ -35,10 +36,12 @@ viridis
 The deeptime, paleoMap and dispeRse packages are currently only available on GitHub, and will need to be installed from there to reproduce
 these analyses and plots. This can be achieved by running the following commands in your R console (ignore the first line 
 if you already have devtools installed).  
+```r
 install.packages("devtools")  
 devtools::install_github("willgearty/deeptime")  
 devtools::install_github("willgearty/paleoMap")  
 devtools::install_github("laurasoul/dispeRse")  
+```
   
   
 All other packages can be installed from CRAN. These scripts have been tested using R version 4.0.3 - 
