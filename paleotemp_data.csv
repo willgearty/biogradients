@@ -1,0 +1,516 @@
+Location,Latitude,Longitude,Paleolatitude,Paleolongitude,Age,SampleType,Method,Temp_C,SE+,SE-,Reference,Marine/Terrestrial,TimePeriod,Stage
+"AND-1B, Antarctica",-77.9,167.1,-77.9,167.1,Pliocene,Diatom,?18O,-0.4,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 693, Antarctica",-70.8,-14.6,-70.8,-14.6,Pliocene,Diatom,?18O,1.2,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 274, Pacific ocean",-69,173.4,-69,173.4,Pliocene,Diatom,?18O,1.4,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"E13-17, Pacific ocean",-65.7,-124.1,-65.7,-124.1,Pliocene,Diatom,?18O,3,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 690, South Atlantic ocean",-65.2,1.2,-65.2,1.2,Pliocene,Diatom,?18O,2,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 323, Pacific ocean",-63.7,-98,-63.7,-98,Pliocene,Diatom,?18O,3.6,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"E50-28, Pacific ocean",-62.9,150.7,-62.9,150.7,Pliocene,Diatom,?18O,2.1,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 695, South Atlantic ocean",-62.4,-43.5,-62.4,-43.5,Pliocene,Diatom,?18O,2,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"E50-33, Pacific ocean",-61.1,170.1,-61.1,170.1,Pliocene,Diatom,?18O,3.7,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"E14-8, Pacific ocean",-59.7,-160.3,-59.7,-160.3,Pliocene,Diatom,?18O,4.1,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 745, Indian ocean",-59.6,85.9,-59.6,85.9,Pliocene,Diatom,?18O,2.5,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 748, Indian ocean",-58.4,79,-58.4,79,Pliocene,Diatom,?18O,2.4,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"E36-33, Pacific ocean",-57.8,150.9,-57.8,150.9,Pliocene,Diatom,?18O,4,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 751, Indian ocean",-57.7,79.8,-57.7,79.8,Pliocene,Diatom,?18O,2.7,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 266, Indian ocean",-56.4,110.1,-56.4,110.1,Pliocene,Diatom,?18O,3.5,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 747, Indian ocean",-54.8,76.8,-54.8,76.8,Pliocene,Diatom,?18O,3.2,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 699, South Atlantic ocean",-51.5,-30.7,-51.5,-30.7,Pliocene,Diatom,?18O,4.6,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 736, Indian ocean",-49.4,71.7,-49.4,71.7,Pliocene,Diatom,?18O,5.8,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 704, South Atlantic ocean",-46.9,7.4,-46.9,7.4,Pliocene,Planktic foraminifera,?18O,8.4,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"Rangitikei R., New Zealand",-39.5,175.9,-39.5,175.9,Pliocene,Planktic foraminifera,?18O,17.6,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 592, Tasman Sea",-36.5,165.4,-36.5,165.4,Pliocene,Planktic foraminifera,?18O,19.7,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 754, Indian ocean",-30.9,93.6,-30.9,93.6,Pliocene,Planktic foraminifera,?18O,19.5,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 516, South Atlantic ocean",-30.3,-35.3,-30.3,-35.3,Pliocene,Planktic foraminifera,?18O,23.3,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 521, South Atlantic ocean",-26.1,-10.3,-26.1,-10.3,Pliocene,Planktic foraminifera,?18O,24.1,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 763, Indian ocean",-20.6,112.2,-20.6,112.2,Pliocene,Planktic foraminifera,?18O,27.3,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 532, South Atlantic ocean",-19.7,10.5,-19.7,10.5,Pliocene,Planktic foraminifera,?18O,20.1,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 1237, Pacific ocean",-16,-76.4,-16,-76.4,Pliocene,Planktic foraminifera/Alkenone,Mg/Ca/UK’37,25.1,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 1115, Solomon Sea",-9.2,151.6,-9.2,151.6,Pliocene,Planktic foraminifera/Alkenone,?18O/UK’37,28.3,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 709, Indian ocean",-3.9,60.6,-3.9,60.6,Pliocene,Planktic foraminifera,?18O,28.2,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 586, Pacific ocean",-0.5,158.5,-0.5,158.5,Pliocene,Planktic foraminifera,?18O,29.1,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 847, Pacific ocean",0.2,-95.3,0.2,-95.3,Pliocene,Planktic foraminifera/Alkenone,Mg/Ca/UK’37,27.1,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 806, Pacific ocean",0.3,159.4,0.3,159.4,Pliocene,Planktic foraminifera,Mg/Ca,29.1,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 573, Pacific ocean",0.5,-133.3,0.5,-133.3,Pliocene,Radiolarian,?18O,24.7,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 677, Pacific ocean",1.2,-83.7,1.2,-83.7,Pliocene,Planktic foraminifera/Alkenone,?18O/UK’37,27.8,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 667, North Atlantic ocean",4.6,-21.9,4.6,-21.9,Pliocene,Planktic foraminifera,?18O,27,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 716, Indian ocean",4.9,73.3,4.9,73.3,Pliocene,Planktic foraminifera,?18O,28.6,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 852, Pacific ocean",5.3,-110.1,5.3,-110.1,Pliocene,Planktic foraminifera,?18O,29.4,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 758, Indian ocean",5.4,90.4,5.4,90.4,Pliocene,Planktic foraminifera,?18O,29.9,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 366, North Atlantic ocean",5.7,-19.9,5.7,-19.9,Pliocene,Planktic foraminifera,?18O,27.5,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 769, Pacific ocean",8.8,121.3,8.8,121.3,Pliocene,Planktic foraminifera,?18O,28.1,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"Cayo Aqua, Panama",9.2,-82.1,9.2,-82.1,Pliocene,Ostracod,?18O,28.8,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 661, North Atlantic ocean",9.5,-19.4,9.5,-19.4,Pliocene,Planktic foraminifera,?18O,26.9,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 502, Caribbean Sea",11.5,-79.4,11.5,-79.4,Pliocene,Planktic foraminifera,?18O,27.9,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 672, North Atlantic ocean",15.5,-58.5,15.5,-58.5,Pliocene,Planktic foraminifera,?18O,27.2,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 541, North Atlantic ocean",15.5,-58.7,15.5,-58.7,Pliocene,Planktic foraminifera,?18O,27.2,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 722, Arabian Sea",16.6,59.8,16.6,59.8,Pliocene,Planktic foraminifera,?18O,25.3,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 659, North Atlantic ocean",18.1,-21,18.1,-21,Pliocene,Planktic foraminifera,?18O,25,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 396, North Atlantic ocean",22.9,-43.5,22.9,-43.5,Pliocene,Planktic foraminifera,?18O,26.1,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 958, North Atlantic ocean",23,-20,23,-20,Pliocene,Planktic foraminifera/Alkenone,Mg/Ca/UK’37,24,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 1006, North Atlantic ocean",24.4,-79.5,24.4,-79.5,Pliocene,Planktic foraminifera/Alkenone,Mg/Ca/UK’37,27.9,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 445, Philippine Sea",25.5,133.2,25.5,133.2,Pliocene,Planktic foraminifera,Mg/Ca,26.2,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"SEFlor (G-182), USA",25.8,-80.3,25.8,-80.3,Pliocene,Ostracod,?18O,25.7,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"Sarasota, USA",27.3,-82.7,27.3,-82.7,Pliocene,Ostracod,?18O,23.4,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"Pinecrest Beds, USA",27.4,-82.4,27.4,-82.4,Pliocene,Ostracod,?18O,24.9,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 1062, North Atlantic ocean",28.3,-74.4,28.3,-74.4,Pliocene,Planktic foraminifera,Mg/Ca,27.2,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 625, the Gulf of Mexico",28.8,-87.2,28.8,-87.2,Pliocene,Alkenone,UK’37,25,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 951, North Atlantic ocean",32,-24.9,32,-24.9,Pliocene,Planktic foraminifera/Alkenone,Mg/Ca/UK’37,23.5,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 1014, Pacific ocean",32.8,-120,32.8,-120,Pliocene,Alkenone,UK’37,23.8,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 1063, North Atlantic ocean",33.7,-57.6,33.7,-57.6,Pliocene,Planktic foraminifera/Alkenone,?18O/UK’37,23.8,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 546, North Atlantic ocean",33.8,-9.6,33.8,-9.6,Pliocene,Planktic foraminifera,?18O,21.6,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"Duplin, USA",34,-79,34,-79,Pliocene,Ostracod,?18O,23.9,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"Finikia, Greece",35.3,25.2,35.3,25.2,Pliocene,Planktic foraminifera,?18O,18,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"Lee Creek, USA",35.4,-76.8,35.4,-76.8,Pliocene,Ostracod,?18O,23.5,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 603, North Atlantic ocean",35.5,-70,35.5,-70,Pliocene,Planktic foraminifera,?18O,26.4,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 310, Pacific ocean",36.9,-176.9,36.9,-176.9,Pliocene,Planktic foraminifera,?18O,21.6,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"Yorktowm, USA",37,-76.5,37,-76.5,Pliocene,Ostracod/Planktic foraminifera,?18O,21.5,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"Yabuta, Japan",37,137,37,137,Pliocene,Ostracod/Mollusc,?18O,17.4,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"Punta di Maiata, Italy",37.3,13.5,37.3,13.5,Pliocene,Planktic foraminifera,?18O,19.4,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"Punta Piccola, Italy",37.3,13.6,37.3,13.6,Pliocene,Planktic foraminifera,?18O,21.4,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 606, North Atlantic ocean",37.3,-35.5,37.3,-35.5,Pliocene,Planktic foraminifera/Alkenone,Mg/Ca/UK’37,21.6,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 579, Pacific ocean",38.6,153.8,38.6,153.8,Pliocene,Diatom,?18O,22.6,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 1021, Pacific ocean",39.1,-127.8,39.1,-127.8,Pliocene,Planktic foraminifera,?18O,20.3,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"Sasaoka, Japan",39.5,140.5,39.5,140.5,Pliocene,Ostracod,?18O,16.3,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 132, the Mediterranean",40.3,11.4,40.3,11.4,Pliocene,Planktic foraminifera,?18O,21,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 36, Pacific ocean",41,-130.1,41,-130.1,Pliocene,Planktic foraminifera,?18O,16.8,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 607, North Atlantic ocean",41,-33,41,-33,Pliocene,Planktic foraminifera/Alkenone,Mg/Ca/UK’37,18.9,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 580, Pacific ocean",41.6,154,41.6,154,Pliocene,Diatom,?18O,17.7,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 608, North Atlantic ocean",42.8,-23.1,42.8,-23.1,Pliocene,Planktic foraminifera,?18O,21.7,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 410, North Atlantic ocean",45.5,-29.5,45.5,-29.5,Pliocene,Planktic foraminifera,?18O,20.6,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 881, Pacific ocean",47.1,161.5,47.1,161.5,Pliocene,Diatom,?18O,10.1,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 548, North Atlantic ocean",48.9,-12,48.9,-12,Pliocene,Planktic foraminifera,?18O,23,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 609, North Atlantic ocean",49.9,-24.2,49.9,-24.2,Pliocene,Planktic foraminifera/Alkenone,Mg/Ca/UK’37,19.4,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 883, Pacific ocean",51.2,167.8,51.2,167.8,Pliocene,Diatom/Planktic foraminifera/Alkenone,?18O,9.1,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"North Sea, UK",52.5,1.5,52.5,1.5,Pliocene,Mollusc,?18O,13.6,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 610, North Atlantic ocean",53.2,-18.9,53.2,-18.9,Pliocene,Planktic foraminifera,?18O,19.3,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 887, Pacific ocean",54.4,-148.5,54.4,-148.5,Pliocene,Planktic foraminifera/Alkenone,?18O/UK’37,9.7,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"E.Kamchatka, the Bering Sea",56,163,56,163,Pliocene,Ostracod/Mollusc,?18O,7.5,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"DSDP 552, North Atlantic ocean",56,-23.2,56,-23.2,Pliocene,Planktic foraminifera/Alkenone,Mg/Ca/UK’37,16.7,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"Karaginsky, Russia",58.9,164,58.9,164,Pliocene,Ostracod/Mollusc,?18O,8.2,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 907, the Greenland Sea",69.3,-12.7,69.3,-12.7,Pliocene,Planktic foraminifera,Mg/Ca,11.7,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"Colvillian, USA",70.3,-150.4,70.3,-150.4,Pliocene,Ostracod,?18O,1.2,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 909, the Greenland Sea",78.6,3.1,78.6,3.1,Pliocene,Planktic foraminifera/Alkenone,Mg/Ca/UK’37,10.2,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"Meighen Island, Arctic ocean",79,-99,79,-99,Pliocene,Ostracod,?18O,1.7,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"ODP 911, the Greenland Sea",80.5,8.2,80.5,8.2,Pliocene,Alkenone,UK’37,12.2,/,/,"Dowsett et al., 2012",Marine,Pliocene,Late Pliocene
+"Linda Valley, Tasmania, Australia",-42.8,145.7,-42.8,145.7,Upper Pliocene,Plant fossil,QualEst,14,2,2,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Lake George, Australia",-35.2,149.4,-35.2,149.4,Upper Pliocene,Plant fossil,QualEst,14,2,2,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Yallalie, Perth, Australia",-30.4,115.8,-30.4,115.8,Upper Pliocene,Plant fossil,QualEst,21,5,5,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"West Butcher Creek, Australia",-17.4,145.7,-17.4,145.7,Upper Pliocene,Plant fossil,QualEst,21.2,/,/,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"ODP 823, Leg 133 (b), Australia",-16.7,145.2,-16.7,145.2,Upper Pliocene,Plant fossil,QualEst,21.5,1.5,1.5,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Columbia Bogotá Fatativá 13 Site, Columbia",5,-74.6,5,-74.6,Upper Pliocene,Plant fossil,Coexistence Approach,23.8,1.2,1.2,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Bogotá B, Columbia",5.2,-73.2,5.2,-73.2,Upper Pliocene,Plant fossil,Coexistence Approach,24.9,0,0,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Rio Banano, Costa Rica",10,-83.3,10,-83.3,Upper Pliocene,Plant fossil,QualEst,27,/,/,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Rio Banano, Costa Rica",10,-83.3,10,-83.3,Upper Pliocene,Plant fossil,Coexistence Approach,23.7,2.8,2.8,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Hadar, Ethiopia",11.3,40.6,11.3,40.6,Upper Pliocene,Plant fossil,BA,20.5,1,1,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Herrería, Mexico",17,-94,17,-94,Upper Pliocene,Plant fossil,Coexistence Approach,26.6,0,0,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Paraje Solo, Mexico",17,-94,17,-94,Upper Pliocene,Plant fossil,Coexistence Approach,24.5,0.1,0.1,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"ODP Site 658, North Atlantic ocean",21,-19,21,-19,Upper Pliocene,Plant fossil,Coexistence Approach,23.7,0.4,0.4,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Pinecrest, Florida, USA",27.4,-82.4,27.4,-82.4,Upper Pliocene,Plant fossil,QualEst,23.1,/,/,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Peace Creek, USA",28,-82.5,28,-82.5,Upper Pliocene,Plant fossil,Coexistence Approach,18.6,4.2,4.2,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Central Kyushu, Japan",33.1,131.5,33.1,131.5,Upper Pliocene,Plant fossil,QuantEst,18,/,/,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Nador, Morocco",35.2,-2.9,35.2,-2.9,Upper Pliocene,Plant fossil,Coexistence Approach,21.5,1,1,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Habibas 1, Algeria",35.2,-1.8,35.2,-1.8,Upper Pliocene,Plant fossil,Coexistence Approach,17.5,3.6,3.6,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Nador 1, Morocco",35.3,-2.7,35.3,-2.7,Upper Pliocene,Plant fossil,Coexistence Approach,16.7,2.6,2.6,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Habibas, Algeria",35.7,-1.1,35.7,-1.1,Upper Pliocene,Plant fossil,Coexistence Approach,21,1,1,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Jiriba 1, North Atlantic ocean",36.3,10.7,36.3,10.7,Upper Pliocene,Plant fossil,Coexistence Approach,17.6,3.4,3.4,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Andalucia G1, Spain",36.4,-4.8,36.4,-4.8,Upper Pliocene,Plant fossil,Coexistence Approach,21,2,2,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Andalucia G2, Spain",36.4,-4.8,36.4,-4.8,Upper Pliocene,Plant fossil,Coexistence Approach,18.3,0.4,0.4,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Yorktown, Virginia, USA",36.6,-76.4,36.6,-76.4,Upper Pliocene,Plant fossil,QualEst,17.5,/,/,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Yorktown, Virginia, USA",36.7,-74.5,36.7,-74.5,Upper Pliocene,Plant fossil,Coexistence Approach,17.5,4.2,4.2,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Gela G1, Italy",37.1,14.1,37.1,14.1,Upper Pliocene,Plant fossil,Coexistence Approach,16.7,0.3,0.3,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Lac Ichkeul, Tunisia",37.2,9.7,37.2,9.7,Upper Pliocene,Plant fossil,Coexistence Approach,19.2,0,0,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Punta Piccola 2, Italy",37.3,13.4,37.3,13.4,Upper Pliocene,Plant fossil,Coexistence Approach,16.7,0.3,0.3,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Capo Rosella B, Italy",37.3,13.4,37.3,13.4,Upper Pliocene,Plant fossil,Coexistence Approach,16.7,0.3,0.3,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Zakynthos, Greece",37.7,20.8,37.7,20.8,Upper Pliocene,Plant fossil,Coexistence Approach,17.6,1.1,1.1,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"California/Sonoma-Napa, USA",38.3,-122.5,38.3,-122.5,Upper Pliocene,Plant fossil,CLAMP,17.6,2,2,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Delaware Omar Fm, USA",38.5,-75.2,38.5,-75.2,Upper Pliocene,Plant fossil,Coexistence Approach,17.5,4.2,4.2,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Upper Beaverdam, USA",38.6,-75.5,38.6,-75.5,Upper Pliocene,Plant fossil,Coexistence Approach,17.5,4.2,4.2,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Delaware Beaverdam Fm, USA",38.7,-75.2,38.7,-75.2,Upper Pliocene,Plant fossil,Coexistence Approach,17.6,3.2,3.2,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Black Rock, USA",38.7,-113,38.7,-113,Upper Pliocene,Plant fossil,Coexistence Approach,12.6,1.3,1.3,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"New Jersey Cape May County, USA",38.9,-74.9,38.9,-74.9,Upper Pliocene,Plant fossil,Coexistence Approach,17.4,3.5,3.5,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Semaforo, Italy",39.1,17.1,39.1,17.1,Upper Pliocene,Plant fossil,Coexistence Approach,16.6,0.1,0.1,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Rio Maior, Portugal",39.4,-8.9,39.4,-8.9,Upper Pliocene,Plant fossil,Coexistence Approach,16,2,2,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Rio Maior, Portugal",39.4,-8.9,39.4,-8.9,Upper Pliocene,Plant fossil,Coexistence Approach,18.3,0.5,0.5,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Camerota, Italy",40,15.4,40,15.4,Upper Pliocene,Plant fossil,Coexistence Approach,17.6,3.4,3.4,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Kura Depression, Azerbaijan",40.5,49.7,40.5,49.7,Upper Pliocene,Plant fossil,QualEst,21,/,/,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Tortosa, Spain",40.8,-0.5,40.8,-0.5,Upper Pliocene,Plant fossil,Coexistence Approach,16.2,0.8,0.8,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Tarragona, the Mediterranean",40.8,1.1,40.8,1.1,Upper Pliocene,Plant fossil,Coexistence Approach,20,2.5,2.5,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Tarragona E2, the Mediterranean",40.8,1.1,40.8,1.1,Upper Pliocene,Plant fossil,Coexistence Approach,16.9,0.4,0.4,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Garraf, Catalonia, Spain",41.2,2,41.2,2,Upper Pliocene,Plant fossil,QualEst,19,/,/,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Caldes de Malavella 1a, Spain",41.8,2.8,41.8,2.8,Upper Pliocene,Plant fossil,Coexistence Approach,15,1.1,1.1,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Tulelake, USA",41.9,-121.5,41.9,-121.5,Upper Pliocene,Plant fossil,Coexistence Approach,15.7,1.8,1.8,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"S. Pedro da Torre ST2, Portugal",42,-8.6,42,-8.6,Upper Pliocene,Plant fossil,Coexistence Approach,16.9,0.1,0.1,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Rio Maior, Spain",42.5,-7.3,42.5,-7.3,Upper Pliocene,Plant fossil,Coexistence Approach,17.1,0.7,0.7,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Glenn Ferry, USA",43,-115.8,43,-115.8,Upper Pliocene,Plant fossil,Coexistence Approach,11.4,1.8,1.8,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Languedoc-Roussillon Palaeogulf 3a, the Mediterranean",43,4.1,43,4.1,Upper Pliocene,Plant fossil,Coexistence Approach,15.4,1.6,1.6,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"ranceja, Spain",43.2,-4.1,43.2,-4.1,Upper Pliocene,Plant fossil,Coexistence Approach,14.9,3.2,3.2,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Galleria Tasso GT1.5, Italy",43.6,11.5,43.6,11.5,Upper Pliocene,Plant fossil,Coexistence Approach,15.9,2.6,2.6,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Source de la Nize 2, France",43.7,3.3,43.7,3.3,Upper Pliocene,Plant fossil,Coexistence Approach,15.8,0.3,0.3,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Mas de Vailhe, France",43.7,3.3,43.7,3.3,Upper Pliocene,Plant fossil,Coexistence Approach,14.7,0.9,0.9,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Alpes-Maritimes, France",43.8,7.2,43.8,7.2,Upper Pliocene,Plant fossil,Coexistence Approach,17.5,2,2,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Marecchia, Italy",44,12.4,44,12.4,Upper Pliocene,Plant fossil,Coexistence Approach,16.2,1.5,1.5,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Pavlovskaya Depression, USA",44.1,132.1,44.1,132.1,Upper Pliocene,Plant fossil,Coexistence Approach,5.9,1.5,1.5,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Stirone, Italy",44.6,10.2,44.6,10.2,Upper Pliocene,Plant fossil,Coexistence Approach,15,2,2,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Stirone, Italy",44.8,10.1,44.8,10.1,Upper Pliocene,Plant fossil,Coexistence Approach,16.1,1.9,1.9,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Monte Falcone, Italy",44.8,9.9,44.8,9.9,Upper Pliocene,Plant fossil,Coexistence Approach,16.4,1.7,1.7,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Villafranca d'Asti-RDB Quarry, Italy",44.9,8,44.9,8,Upper Pliocene,Plant fossil,Coexistence Approach,14.8,1,1,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Upper Valdorno 1, France",45.2,3.5,45.2,3.5,Upper Pliocene,Plant fossil,Coexistence Approach,16.5,1.4,1.4,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Stura di Lanzo, Italy",45.2,7.6,45.2,7.6,Upper Pliocene,Plant fossil,Coexistence Approach,16.1,0.8,0.8,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Borisovska Kuyalnician, Crimean peninsula",45.3,35.8,45.3,35.8,Upper Pliocene,Plant fossil,Coexistence Approach,16.3,0.6,0.6,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Sem Kolodyazey 205 well, Crimean peninsula",45.3,35.8,45.3,35.8,Upper Pliocene,Plant fossil,Coexistence Approach,14.4,1.1,1.1,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Oak Grove Forest, USA",45.8,-121.6,45.8,-121.6,Upper Pliocene,Plant fossil,CLAMP,11.9,1,1,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Pula Maar, Hungary",47.1,17.4,47.1,17.4,Upper Pliocene,Plant fossil,Coexistence Approach,12.8,1.2,1.2,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Pont-Rouz 1, France",48.7,-3.3,48.7,-3.3,Upper Pliocene,Plant fossil,Coexistence Approach,15.2,0.7,0.7,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Sessenheim-Auenheim, France",48.8,8,48.8,8,Upper Pliocene,Plant fossil,Coexistence Approach,14.6,0.7,0.7,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Domansky Wierch, Poland",49.5,20,49.5,20,Upper Pliocene,Plant fossil,Coexistence Approach,14,1.4,1.4,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Vildstejn Nero clay, Czech",50.2,12.4,50.2,12.4,Upper Pliocene,Plant fossil,Coexistence Approach,12.4,0.2,0.2,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Vildstejn Pluto clay, Czech",50.2,12.4,50.2,12.4,Upper Pliocene,Plant fossil,Coexistence Approach,12.3,1.2,1.2,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Dorheim, Germany",50.4,8.6,50.4,8.6,Upper Pliocene,Plant fossil,Coexistence Approach,15.5,0.9,0.9,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Kranichfeld, Germany",50.9,11.2,50.9,11.2,Upper Pliocene,Plant fossil,Coexistence Approach,12.9,0.5,0.5,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Fortuna Mine, horizon 11, Germany",51,6.7,51,6.7,Upper Pliocene,Plant fossil,Coexistence Approach,13.9,0,0,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Lower Rhine Basin, Germany",51,6.5,51,6.5,Upper Pliocene,Plant fossil,CLAMP/Coexistence Approach,14.1,0.2,0.2,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Herkenbosch, Germany",51.2,6.1,51.2,6.1,Upper Pliocene,Plant fossil,Coexistence Approach,14.4,1.1,1.1,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Berga, Germany",51.5,11,51.5,11,Upper Pliocene,Plant fossil,Coexistence Approach,13.9,0,0,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Berga/Thuringia, Germany",51.5,11,51.5,11,Upper Pliocene,Plant fossil,Coexistence Approach,13.5,0.5,0.5,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Willershausen, Germany",51.8,10.1,51.8,10.1,Upper Pliocene,Plant fossil,CLAMP/Coexistence Approach,13.9,2.7,2.7,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Willershausen, Germany",51.8,10.1,51.8,10.1,Upper Pliocene,Plant fossil,Coexistence Approach,14.2,0.6,0.6,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Walton-on-the-Naze, UK",51.8,1.3,51.8,1.3,Upper Pliocene,Plant fossil,Coexistence Approach,12.8,1.3,1.3,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Walton-on-the-Naze, UK",51.8,1.3,51.8,1.3,Upper Pliocene,Plant fossil,Coexistence Approach,12.1,1.1,1.1,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Orford, UK",52.1,1.6,52.1,1.6,Upper Pliocene,Plant fossil,Coexistence Approach,10.3,0.2,0.2,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"James Bay Lowland, Canada",52.8,-83.9,52.8,-83.9,Upper Pliocene,Plant fossil,QualEst,6,2,2,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Pollnahallia 2, Ireland",53.5,-9,53.5,-9,Upper Pliocene,Plant fossil,Coexistence Approach,10,0.8,0.8,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Maly-shik / Logovskoy, Russia",54,81,54,81,Upper Pliocene to Lower Pleistocene,Plant fossil,Coexistence Approach,8.5,4.1,4.1,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Kabinet / 42km, Russia",55,80,55,80,Upper Pliocene to Lower Pleistocene,Plant fossil,Coexistence Approach,8.9,2.3,2.3,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Mirny, Russia",55,82,55,82,Upper Pliocene to Lower Pleistocene,Plant fossil,Coexistence Approach,11.2,1.3,1.3,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Lake Baikal, Russia",55.7,108.4,55.7,108.4,Upper Pliocene,Plant fossil,Coexistence Approach,7,2.5,2.5,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Merkutlinskiy, Russia",56,72,56,72,Upper Pliocene to Lower Pleistocene,Plant fossil,Coexistence Approach,11.8,4.5,4.5,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"West Siberia, Russia",56,70.3,56,70.3,Upper Pliocene,Plant fossil,QualEst,13.5,1.5,1.5,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Chara Basin, Siberia, Russia",57,118.3,57,118.3,Upper Pliocene,Plant fossil,QualEst,12.8,/,/,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Baffin Bay ODP Site 646/647, North Atlantic ocean",58.2,-48.4,58.2,-48.4,Late Pliocene,Plant fossil,Coexistence Approach,7.4,1.3,1.3,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Sleipner, the North Sea",58.4,1.9,58.4,1.9,Late Pliocene,Plant fossil,Coexistence Approach,15.1,3.4,3.4,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Magadan District, Russia",60,150.7,60,150.7,Upper Pliocene,Plant fossil,QualEst,2,/,/,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Delyankir, Russia",63,133,63,133,Upper Pliocene to Lower Pleistocene,Plant fossil,Coexistence Approach,7.4,0.5,0.5,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Blizkiy, Russia",64,162,64,162,Upper Pliocene to Lower Pleistocene,Plant fossil,Coexistence Approach,5.3,5.8,5.8,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Lost Chicken Mine, USA",64.1,-142,64.1,-142,Upper Pliocene,Plant fossil,QualEst,2.5,/,/,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Nenana Valley, Alaska, USA",64.5,-149.1,64.5,-149.1,Upper Pliocene,Plant fossil,QualEst,3,/,/,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Circle, Alaska, USA",65.5,-144.1,65.5,-144.1,Upper Pliocene,Plant fossil,QualEst,3,/,/,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"ODP Site 642 9H2 45-46, Norwegian Sea",67.2,2.9,67.2,2.9,Late Pliocene,Plant fossil,Coexistence Approach,8.3,4.1,4.1,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Ocean Point, USA",70,-153,70,-153,Upper Pliocene,Plant fossil,QualEst,1.5,/,/,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Baffin Bay ODP Site 645B, Greenland",70.5,-64.7,70.5,-64.7,Late Pliocene,Plant fossil,Coexistence Approach,4.5,4.3,4.3,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Lena River, Russia",72.2,126,72.2,126,Upper Pliocene,Plant fossil,QualEst,1.5,1,1,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Beaver Pond site on Ellesmere Island, Actic",78,-82,78,-82,Pliocene,Plant fossil,Annual growth rings and ?18O of cellulose,-0.5,1.9,1.9,"Ballantyne et al., 2010",Terrestrial,Pliocene,Late Pliocene
+"Beaver Pond site on Ellesmere Island, Actic",78,-82,78,-82,Pliocene,GDGTs,MBT/CBT,-0.6,5,5,"Ballantyne et al., 2010",Terrestrial,Pliocene,Late Pliocene
+"Beaver Pond site on Ellesmere Island, Actic",78,-82,78,-82,Pliocene,Plant fossil,Coexistence Approach,-0.4,4.1,4.1,"Ballantyne et al., 2010",Terrestrial,Pliocene,Late Pliocene
+"Beaver Pond/Ellesmere Isl., Actic",78.4,-82,78.4,-82,Upper Pliocene,Plant fossil,Multi-Proxies,-1.4,4,4,"Salzmann et al., 2013",Terrestrial,Pliocene,Late Pliocene
+"Meighen Island, Canada",80,-99.6,80,-99.6,Late Pliocene,Plant fossil,Coexistence Approach,2.2,0.3,0.3,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"Ellesmere Island, Canada",80.3,-77.4,80.3,-77.4,Late Pliocene,Plant fossil,Coexistence Approach,0.5,0.9,0.9,"Utescher et al., 2017",Terrestrial,Pliocene,Late Pliocene
+"DSDP 594, South Pacific ocean",-45.5235,174.948,-48.13543333,-106.2955333,Serravallian-Messinian,Alkenone,UK’37,16.23,/,/,Herbert et al. 2016,Marine,Miocene,Late Miocene
+"ODP 722, Arabian Sea",16.6218,59.7953,13.64007273,58.38006364,Tortonian-Messinian,Alkenone,UK’37,28.58,/,/,Huang et al. 2007,Marine,Miocene,Late Miocene
+"ODP 846, South Pacific ocean",-3.0967,-90.8181,-2.713238667,-98.13521333,Serravallian-Messinian,Alkenone,UK’37,28.12,/,/,Herbert et al. 2016,Marine,Miocene,Late Miocene
+"ODP 850, Pacific ocean",1.2971,-110.521,0.780180929,-105.799,Serravallian-Messinian,Alkenone,UK’37,27.79,/,/,Zhang et al. 2014,Marine,Miocene,Late Miocene
+"ODP 883/884, North Pacific ocean",51.4506,168.337,49.06850769,173.5990769,Tortonian-Messinian,Alkenone,UK’37,10.21,/,/,Herbert et al. 2016,Marine,Miocene,Late Miocene
+"ODP 887, Pacific ocean",54.3654,-148.446,52.7188,-145.8436,Tortonian-Messinian,Alkenone,UK’37,8.38,/,/,Herbert et al. 2016,Marine,Miocene,Late Miocene
+"ODP 907, Arctic ocean",69.2333,-12.6983,69.0027875,-11.39609375,Serravallian-Messinian,Alkenone,UK’37,13.87,/,/,Herbert et al. 2016,Marine,Miocene,Late Miocene
+"ODP 982, North Atlantic ocean",57.5165,-15.8667,57.30614,-15.29502,Langhian-Messinian,Alkenone,UK’37,24.36,/,/,Herbert et al. 2016,Marine,Miocene,Late Miocene
+"ODP 1010, North Pacific ocean",29.9649,-118.101,29.07476,-118.3409333,Serravallian-Messinian,Alkenone,UK’37,25.79,/,/,LaRiviere et al. 2012,Marine,Miocene,Late Miocene
+"ODP 1021, North Pacific ocean",39.0873,-127.783,37.73717059,-126.2258704,Serravallian-Messinian,Alkenone,UK’37,19.06,/,/,LaRiviere et al. 2012,Marine,Miocene,Late Miocene
+"ODP 1085, South Atlantic ocean",-29.3744,13.9901,-33.7,/,Langhian-Messinian,Alkenone,UK’37,24.39,/,/,Rommerskirchen et al. 2011,Marine,Miocene,Late Miocene
+"ODP 1088, South Atlantic ocean",-41.1361,13.5629,-42.28961333,11.31687333,Serravallian-Messinian,Alkenone,UK’37,17.81,/,/,Herbert et al. 2016,Marine,Miocene,Late Miocene
+"ODP 1125, South Pacific ocean",-42.5499,-178.167,-44.94254167,-178.167,Tortonian-Messinian,Alkenone,UK’37,23.3,/,/,Herbert et al. 2016,Marine,Miocene,Late Miocene
+"ODP 1208, North Pacific ocean",36.1272,158.202,34.07108,163.0377,Tortonian-Messinian,Alkenone,UK’37,22.87,/,/,LaRiviere et al. 2012,Marine,Miocene,Late Miocene
+"ODP 1241, Pacific ocean",5.8428,-86.4445,2.234066667,-91.97317778,Tortonian-Messinian,Alkenone,UK’37,27.92,/,/,Seki et al. 2012,Marine,Miocene,Late Miocene
+"IODP U1338, Pacific ocean",2.51944,-117.931,1.569435455,-112.2540909,Langhian-Messinian,Alkenone,UK’37,27.92,/,/,Rouselle et al. 2013,Marine,Miocene,Late Miocene
+Mediterranean,43.352,13.341667,42.15413333,11.52554667,Serravallian-Messinian,Alkenone,UK’37,27.1,/,/,Tzanova et al. 2015; Herbert et al. 2016,Marine,Miocene,Late Miocene
+"ODP 689, South Atlantic ocean",-64,3,-63.1,1.7,E/O boundary,Planktic foraminifera,Clumped isotope thermometry,11.9,1.8,1.8,"Petersen et al., 2015",Marine,Early Oligocene,Early Oligocene
+"29-277, Pacific",-52,166,-58,180,Lower Oligocene,GDGTs,UK’37,22.7,0.7,0.7,"Liu et al., 2009",Marine,Early Oligocene,Early Oligocene
+"29-278, Pacific",-52,166,-58,180,Lower Oligocene,GDGTs,TEX86,23.8,0.5,0.5,"Liu et al., 2009",Marine,Early Oligocene,Early Oligocene
+"South Island, New Zealand",-43,166,-57.6,173.5,Lowermost Oligocene,Fish otoliths,?18O,12.5,1,1,"Buening et al., 1997",Marine,Early Oligocene,Early Oligocene
+"71-511, South Atlantic ocean",-51,-47,-52,-37,Lower Oligocene,GDGTs,UK’37,11.4,1.3,1.3,"Liu et al., 2009",Marine,Early Oligocene,Early Oligocene
+"71-512, South Atlantic ocean",-51,-47,-52,-37,Lower Oligocene,GDGTs,TEX86,11.9,1.6,1.6,"Liu et al., 2009",Marine,Early Oligocene,Early Oligocene
+"DSDP Site 511, South Atlantic Ocean",-51,-47,-52,-37,Lowermost Oligocene,GDGTs,UK’37,10,1.5,1.5,"Plancq et al., 2014",Marine,Early Oligocene,Early Oligocene
+"177-1090, South Atlantic ocean",-43,9,-45,3,Lower Oligocene,GDGTs,UK’37,20,2.2,2.2,"Liu et al., 2009",Marine,Early Oligocene,Early Oligocene
+"TDP Site 12, Tanzania",-9,39,-12,35,Lowermost Oligocene,Planktic foraminifera,?18O,25.1,1.3,1.3,"Wade and Pearson, 2008",Marine,Early Oligocene,Early Oligocene
+"Tanzania Drilling Project, Tanzania",-7.8,39.1,-10.7,34.7,Lower Oligocene,mixed-layer foraminifera,Clumped isotope thermometry,29.7,3.2,3.1,Evans et al. 2018,Marine,Early Oligocene,Early Oligocene
+"ODP Site 959, Guinea",3.6,-2.7,1.7,-6.4,Lower Oligocene,GDGTs,TEX86,26.4,0.7,0.7,"Cramwinckel et al., 2018",Marine,Early Oligocene,Early Oligocene
+"154-925, North Atlantic ocean",4,-44,3.6,-37.7,Lower Oligocene,GDGTs,TEX86,27.8,2,2,"Liu et al., 2009",Marine,Early Oligocene,Early Oligocene
+"154-924, North Atlantic ocean",4.2,-43.5,3.6,-37.7,Lower Oligocene,GDGTs,UK’37,27.8,1.3,1.3,"Zhang et al., 2013",Marine,Early Oligocene,Early Oligocene
+"154-924, North Atlantic ocean",4.2,-43.5,3.6,-37.7,Lower Oligocene,GDGTs,TEX86,29.5,2,2,"Zhang et al., 2013",Marine,Early Oligocene,Early Oligocene
+"154-929, North Atlantic ocean",6,-44.5,4.5,-39,Lower Oligocene,GDGTs,TEX86,24.5,2,2,"Liu et al., 2009",Marine,Early Oligocene,Early Oligocene
+"Mississippi, USA",30,-88,30.2,-81.9,Lower Oligocene,mixed-layer foraminifera,Clumped isotope thermometry,29.4,3.1,3,Evans et al. 2018,Marine,Early Oligocene,Early Oligocene
+"Gulf Coast, TX, USA",30,-96,31,-90,Lower Oligocene,Fish otoliths,?18O,16.7,1,1,"Lvany et al., 2000",Marine,Early Oligocene,Early Oligocene
+"St. Stephens Quarry, Al, USA",32,-88,32,-82,Lowermost Oligocene,GDGTs,TEX86,28,1.6,1.6,"Wade et al., 2012",Marine,Early Oligocene,Early Oligocene
+"St. Stephens Quarry, Al, USA",32,-88,32,-82,Lowermost Oligocene,Planktic foraminifera,Mg/Ca,27,0.5,0.5,"Wade et al., 2012",Marine,Early Oligocene,Early Oligocene
+"Mississippi Embayment, USA",33,-92,33,-86,Oligocene,Mollusc,?18O,22.5,1.6,1.6,"Kobashil, 2001",Marine,Early Oligocene,Early Oligocene
+"Wayne County, MS, USA",42,-83,42,-76,Lower Oligocene,Planktic foraminifera,?18O,21.4,1,1,"Kobashil et al., 2004",Marine,Early Oligocene,Early Oligocene
+"Mainz Basin, Germany",50,8,49.5,4.5,lower Oligocene,Shark teeth,?18O,10.2,4.5,4.5,"Walliser et al., 2016",Marine,Early Oligocene,Early Oligocene
+"Kassel Basin, Germany",51,9,50.6,5.4,lower Oligocene,Shark teeth,?18O,12.1,3.8,3.8,"Walliser et al., 2016",Marine,Early Oligocene,Early Oligocene
+"North Sea Basin, UK",55,-7,54,-11,Lowermost Oligocene,GDGTs,TEX86,14,1.6,1.6,"Sliwinska et al., 2010",Marine,Early Oligocene,Early Oligocene
+Denmark,56,9,56,5,Lowermost Oligocene,GDGTs,TEX86,14,1.6,1.6,"Katarzyna et al., 2012",Marine,Early Oligocene,Early Oligocene
+"38-336, Norwegian Sea",63,-7,62,-11,Lower Oligocene,GDGTs,UK’37,15.9,0.3,0.3,"Liu et al., 2009",Marine,Early Oligocene,Early Oligocene
+"151-913, Greenland Sea",75.5,7,74,12,E/O boundary,GDGTs,UK’37,11.7,1.4,1.4,"Liu et al., 2009",Marine,Early Oligocene,Early Oligocene
+"ODP in Prydz Bay, East Antarctica",-66,62,-65,58,E/O boundary,Paleosol,S index(mK2O + mNa2O)/mAl2O3),8.1,3.6,3.6,"Passchier et al., 2017",Terrestrial,Early Oligocene,Early Oligocene
+"Seymour and Cockburn Island, Antarctica",-64,-57,-64,-58,Lowermost Oligocene,Plant fossil,Coexistence Approach,7,2.4,2.4,"Thorn and Deconto, 2006",Terrestrial,Early Oligocene,Early Oligocene
+"Assam, India",27.3,95.8,20.1,96.2,Upper Oliogocene,Plant fossil,CLAMP,28.3,3.7,3.7,"Srivastava et al., 2012",Terrestrial,Early Oligocene,Early Oligocene
+"Guangxi, China",22.2,107,22.4,106.7,Lower Oligocene,Plant fossil,Coexistence Approach,20.7,1.8,1.8,"Sun et al., 2017",Terrestrial,Early Oligocene,Early Oligocene
+"Guangdong, China",21.8,110.8,22.7,110.5,Lower Oligocene,Plant fossil,CLAMP,22.1,1.7,1.7,"Herman et al., 2017",Terrestrial,Early Oligocene,Early Oligocene
+"Patagonia, USA",32,-111,33,-105,E/O boundary,Mammal tooth enamel,?18O,19.9,2,2,"Kohn et al., 2015",Terrestrial,Early Oligocene,Early Oligocene
+"Lanzhou, China",36,104,37,100,Oligocene,Plant fossil,Coexistence Approach,19.3,3,3,"Yao et al., 2010",Terrestrial,Early Oligocene,Early Oligocene
+"Çorum Güvendik, Turkey",40.5,33.5,40.7,30.4,Upper Oliogocene,Plant fossil,Coexistence Approach,16.7,0.6,0.6,"Kayseri-Özer et al., 2017",Terrestrial,Early Oligocene,Early Oligocene
+"Çorum-Osmano?lu fm., Turkey",40.5,35,40.7,31.9,Upper Oliogocene,Plant fossil,Coexistence Approach,18,0.8,0.8,"Kayseri-Özer et al., 2017",Terrestrial,Early Oligocene,Early Oligocene
+"Ebro Basin, Spain",42,2,42,-1,Lowermost Oligocene,Paleosol,Weathering Proxy(mAl/mSi),10.6,0.6,0.6,"Sheldon et al., 2012",Terrestrial,Early Oligocene,Early Oligocene
+"Sava Basin, Slovenia",46,14,43,12,Oligocene,Plant fossil,Coexistence Approach,17.5,2.4,2.4,"Bruch and Mosbrugger, 2002",Terrestrial,Early Oligocene,Early Oligocene
+"Central Rockies/Western Great Plains, USA",42.6,-105.3,43.5,-98.4,Lower Oligocene,Sandstone cement,Clumped isotope thermometry,8.3,3.8,3.8,"Hren et al, 2013",Terrestrial,Early Oligocene,Early Oligocene
+"Oregon, USA",44,-123,44,-112,Lower Oligocene,Paleosols,S index(mK2O + mNa2O)/mAl2O3),16,3.6,3.6,"Sheldon and Retallack, 2004",Terrestrial,Early Oligocene,Early Oligocene
+"Toadstool Park, NW Nebraska, USA",43,-104,44,-97,Lowermost Oligocene,Mammal tooth enamel,?18O,7.1,3.1,3.1,"Zanazzi et al., 2009",Terrestrial,Early Oligocene,Early Oligocene
+"White River, SW South Dakota, USA",44,-103,45,-96,Lowermost Oligocene,Mammal tooth enamel,?18O,13.3,2,2,"Zanazzi et al., 2007",Terrestrial,Early Oligocene,Early Oligocene
+"Shulan, Jilin, China",45,127,46,124,Lowermost Oligocene,Plant fossil,Coexistence Approach,14.9,2.3,2.3,"Quan et al., 2012",Terrestrial,Early Oligocene,Early Oligocene
+"SW Montana, USA",47,-115,48,-108,E/O boundary,Plant fossil,Coexistence Approach,12.8,2.4,2.4,"Lielke et al., 2012",Terrestrial,Early Oligocene,Early Oligocene
+"Hampshire Basin, USA",50.7,-1.3,50,-4.7,Lower Oligocene,Gastropod,Clumped isotope thermometry,2.1,3.6,3.6,"Hren et al, 2013",Terrestrial,Early Oligocene,Early Oligocene
+"Isle of Wight, UK",51,-1,50,-4,Lowermost Oligocene,Paleosol,S index(mK2O + mNa2O)/mAl2O3),13.2,3.6,3.6,"Sheldon et al., 2009",Terrestrial,Early Oligocene,Early Oligocene
+"?eské st?edoho?í Mountains, northern Bohemia, German",51,14,51,10,Lower Oligocene,Plant fossil,Coexistence Approach/CLAMP,16.1,3,3,"Kvacek and Walther, 2004",Terrestrial,Early Oligocene,Early Oligocene
+"Western Siberia, Russia",52,82,53,79,Lower Oligocene,Plant fossil,Coexistence Approach,15.2,3,3,"Popova et al., 2012",Terrestrial,Early Oligocene,Early Oligocene
+"Western Siberia, Russia",54,73,55,70,Lower Oligocene,Plant fossil,Coexistence Approach,12.4,3,3,"Popova et al., 2012",Terrestrial,Early Oligocene,Early Oligocene
+"Western Siberia, Russia",55,71,56,68,Lower Oligocene,Plant fossil,Coexistence Approach,12.7,3,3,"Popova et al., 2012",Terrestrial,Early Oligocene,Early Oligocene
+"Western Siberia, Russia",56,72,57,70,Lower Oligocene,Plant fossil,Coexistence Approach,12.8,3,3,"Popova et al., 2012",Terrestrial,Early Oligocene,Early Oligocene
+"Western Siberia, Russia",56,84,57,81,Lower Oligocene,Plant fossil,Coexistence Approach,14.9,3,3,"Popova et al., 2012",Terrestrial,Early Oligocene,Early Oligocene
+"Western Siberia, Russia",57,65,58,61,Lower Oligocene,Plant fossil,Coexistence Approach,12,3,3,"Popova et al., 2012",Terrestrial,Early Oligocene,Early Oligocene
+"Western Siberia, Russia",57,79,58,76,Lower Oligocene,Plant fossil,Coexistence Approach,12.1,3,3,"Popova et al., 2012",Terrestrial,Early Oligocene,Early Oligocene
+"Western Siberia, Russia",57,82,58,79,Lower Oligocene,Plant fossil,Coexistence Approach,13.1,3,3,"Popova et al., 2012",Terrestrial,Early Oligocene,Early Oligocene
+"Western Siberia, Russia",59,76,60,73,Lower Oligocene,Plant fossil,Coexistence Approach,16,3,3,"Popova et al., 2012",Terrestrial,Early Oligocene,Early Oligocene
+"Western Siberia, Russia",59,80,60,77,Lower Oligocene,Plant fossil,Coexistence Approach,13,3,3,"Popova et al., 2012",Terrestrial,Early Oligocene,Early Oligocene
+"Western Siberia, Russia",60,83,61,80,Lower Oligocene,Plant fossil,Coexistence Approach,10.1,3,3,"Popova et al., 2012",Terrestrial,Early Oligocene,Early Oligocene
+Seymour Island,-64.28,-56.75,-67,,Middle Eocene,Bivalve shell,?18O,20.9,2.1,2.1,Douglas et al. 2014,Marine,Middle Eocene,Middle Eocene
+ODP Site 1172,-43.96,149.93,-65,,Middle Eocene,GDGTs,"TEX86, Uk'37",24.8,1.4,1.4,Bijl et al. 2009,Marine,Middle Eocene,Middle Eocene
+DSDP Site 277,-52.22,166.19,-62,,Middle Eocene,GDGTs,"TEX86, Uk'37",25.2,2.5,2.5,Hollis et al. 2009,Marine,Middle Eocene,Middle Eocene
+Hampden beach NZ,-43.09,172.77,-60,,Middle Eocene,GDGTs,TEX86,24.3,0.4,0.4,Burgess et al. 2008,Marine,Middle Eocene,Middle Eocene
+DSDP Site 511,-51,-46.97,-55,,Middle Eocene,GDGTs,TEX86,27,2.5,2.5,Houben 2012,Marine,Middle Eocene,Middle Eocene
+Tanzania,-7.77,39.06,-19,,Middle Eocene,GDGTs,TEX86,34,0.1,0.1,Pearson et al. 2009,Marine,Middle Eocene,Middle Eocene
+ODP Site 925,4.2,-43.49,-2,,Middle Eocene,GDGTs,TEX86,33,2.5,2.5,Zhang et al. 2013,Marine,Middle Eocene,Middle Eocene
+DSDP Site 336,63.35,-7.79,60,,Middle Eocene,GDGTs,Uk'37,23,4,4,Liu et al. 2009,Marine,Middle Eocene,Middle Eocene
+ODP Site 913,75.85,-6.95,65,,Middle Eocene,GDGTs,Uk'37,25,4,4,Liu et al. 2009,Marine,Middle Eocene,Middle Eocene
+Arctic Lomonosov Ridge,87.87,136.19,85,,Middle Eocene,GDGTs,"TEX86, Uk'37",11.3,1.9,1.9,Sangiorgi et al. 2008,Marine,Middle Eocene,Middle Eocene
+"ODP 690, South Atlantic ocean",-65.2,1.2,-66,-7,Lower Ypresian,Planktic foraminifera,?18O,13,0.7,0.7,"Ho et al., 2016",Marine,Late Paleocene-Early Eocene,Early Eocene
+"ODP 738, Indian ocean",-62.7,82.8,-64,78,Lower Ypresian,Planktic foraminifera,?18O,14,0.7,0.7,"Ho et al., 2016",Marine,Late Paleocene-Early Eocene,Early Eocene
+"ODP 1172, Tasman sea",-44,149.9,-64,162,Lower Ypresian,GDGTs,TEX86,29,0.6,0.6,"Ho et al., 2016",Marine,Late Paleocene-Early Eocene,Early Eocene
+"U1356A, Indian ocean",-63.2,135.6,-63.6,132.1,Lower Eocene,GDGTs,TEX86,34.5,5,3.7,"Bijl et al., 2013; Naafs et al., 2018",Marine,Late Paleocene-Early Eocene,Early Eocene
+"DSDP 277, Pacific ocean",-52.2,166.2,-61.8,-170.4,Lower Eocene,mixed-layer foraminifera,Mg/Ca,27.8,4,4,Evans et al. 2018 calculated from data in Hines et al. 2017,Marine,Late Paleocene-Early Eocene,Early Eocene
+"Hampden Beach, New Zealand",-45.3,170.5,-55.4,-163.1,Lower Eocene,GDGTs,TEX86,33.4,4.8,3.7,"Inglis et al,. 2015; Naafs et al., 2018",Marine,Late Paleocene-Early Eocene,Early Eocene
+"Hampden Beach, New Zealand",-45.3,170.5,-55.4,-163.1,Lower Eocene,mixed-layer foraminifera,Mg/Ca,25.2,4,4,Evans et al. 2018 calculated from data in Hines et al. 2017,Marine,Late Paleocene-Early Eocene,Early Eocene
+"Tora, New Zealand",-41.4,175.6,-53.2,-170.2,Lower Eocene,mixed-layer foraminifera,Mg/Ca,26.2,4,4,Evans et al. 2018 calculated from data in Hines et al. 2017,Marine,Late Paleocene-Early Eocene,Early Eocene
+"Waipara River, New Zealand",-43.2,172.8,-53,-160,Lower Ypresian,Planktic foraminifera,Mg/Ca,25.5,1.1,1.1,"Ho et al., 2016",Marine,Late Paleocene-Early Eocene,Early Eocene
+"Waipara River, New Zealand",-43.2,172.8,-53,-160,Lower Ypresian,GDGTs,TEX86,31.5,0.6,0.6,"Ho et al., 2016",Marine,Late Paleocene-Early Eocene,Early Eocene
+"Tawanui, New Zealand",-40.2,176.6,-51.7,-170.3,Lower Eocene,mixed-layer foraminifera,Mg/Ca,24.9,4,4,Evans et al. 2018 calculated from data in Hines et al. 2017,Marine,Late Paleocene-Early Eocene,Early Eocene
+"DSDP 527, South Atlantic ocean",-28,1.8,-35,-10,Lower Ypresian,Planktic foraminifera,Mg/Ca,27,1.1,1.1,"Ho et al., 2016",Marine,Late Paleocene-Early Eocene,Early Eocene
+Tanzania (TDP),-7.8,39.1,-18,31,Lower Ypresian,GDGTs,TEX86,33,0.6,0.6,"Ho et al., 2016",Marine,Late Paleocene-Early Eocene,Early Eocene
+Tanzania (TDP),-7.8,39.1,-18,31,Lower Ypresian,Planktic foraminifera,?18O,29,0.7,0.7,"Ho et al., 2016",Marine,Late Paleocene-Early Eocene,Early Eocene
+"Kutch, India",23.5,68.6,-4.3,59.1,Lower Eocene,mixed-layer foraminifera,Clumped isotope thermometry,32.9,4.4,4.3,Evans et al. 2018,Marine,Late Paleocene-Early Eocene,Early Eocene
+"Sagamu Quarry, Nigeria",/,/,-0.7,-1.9,Lower Eocene,mixed-layer foraminifera,Mg/Ca,30.3,4,4,Evans et al. 2018 calculated from data in Frieling et al. 2017,Marine,Late Paleocene-Early Eocene,Early Eocene
+"ODP Site 929, North Atlantic ocean",5.6,-43.4,2.6,-31.6,Lower Eocene,GDGTs,TEX86,35,5.1,3.7,"Liu et al,. 2009; Inglis et al., 2015; Naafs et al., 2018",Marine,Late Paleocene-Early Eocene,Early Eocene
+"ODP Site 865, Pacific",18.4,-179.6,8,-151,Lower Ypresian,Planktic foraminifera,Mg/Ca,29.5,1.1,1.1,"Ho et al., 2016",Marine,Late Paleocene-Early Eocene,Early Eocene
+"ODP Site1211, Shatsky Rise, Pacific",33,159,24,-171,Lower Ypresian,Planktic foraminifera,Mg/Ca,27,1.1,1.1,"Ho et al., 2016",Marine,Late Paleocene-Early Eocene,Early Eocene
+"ODP Site1212, Shatsky Rise, Pacific",33,159,24,-171,Lower Ypresian,GDGTs,TEX86,32,0.6,0.6,"Ho et al., 2016",Marine,Late Paleocene-Early Eocene,Early Eocene
+"Hatchetigbee, USA",32,-88,34,-72,Lower Ypresian,Planktic foraminifera,Clumped isotope thermometry,26,0.7,0.7,"Keating-Bitonti et al., 2011; Ho et al., 2016",Marine,Late Paleocene-Early Eocene,Early Eocene
+"South Dover Bridge, USA",38.4,-76,38.8,-58.6,Lower Eocene,GDGTs,TEX86,33.9,4.9,3.7,"Inglis et al., 2015; Naafs et al., 2018",Marine,Late Paleocene-Early Eocene,Early Eocene
+"Bass River, USA",39.6,-74.4,40,-57,Lower Ypresian,GDGTs,TEX86,30,0.6,0.6,"Ho et al., 2016",Marine,Late Paleocene-Early Eocene,Early Eocene
+"Bass River, USA",39.6,-74.4,40,-57,Lower Ypresian,Planktic foraminifera,?18O,24,0.7,0.7,"Ho et al., 2016",Marine,Late Paleocene-Early Eocene,Early Eocene
+"DSDP 401, North Atlantic ocean",47.4,-8.8,42.5,-10.2,Lower Eocene,mixed-layer foraminifera,Mg/Ca,26.6,4,4,Evans et al. 2018 calculated from data in Bornemann et al. 2014,Marine,Late Paleocene-Early Eocene,Early Eocene
+"Paris Basin, France",49.4,3.5,44.4,1.1,Lower Eocene,mixed-layer foraminifera,Clumped isotope thermometry,18.5,2.8,2.7,Evans et al. 2018,Marine,Late Paleocene-Early Eocene,Early Eocene
+"GSB Kester Borehole, Belgium",50.8,4.1,45.8,1.6,Lower Eocene,mixed-layer foraminifera,Clumped isotope thermometry,20,2.5,2.4,Evans et al. 2018,Marine,Late Paleocene-Early Eocene,Early Eocene
+"Ronse, Belgium",51,4,46,2,Lower Eocene,Fish otoliths,?18O,24,0.4,0.4,"Vanhove et al., 2011",Marine,Late Paleocene-Early Eocene,Early Eocene
+"Ampe Quarry, Belgium",51,3.2,46,0.8,Lower Eocene,mixed-layer foraminifera,Clumped isotope thermometry,29.8,3.7,3.5,Evans et al. 2018,Marine,Late Paleocene-Early Eocene,Early Eocene
+"Egem, Belgium",51,3,47,0.3,Lower Eocene,Fish otoliths,?18O,22.3,0.3,0.3,"Vanhove et al., 2011",Marine,Late Paleocene-Early Eocene,Early Eocene
+"Schepdaal, Belgium",51,4,47,1,Lower Eocene,Fish otoliths,?18O,27.1,1.3,1.3,"Vanhove et al., 2011",Marine,Late Paleocene-Early Eocene,Early Eocene
+"Scherpenberg, Belgium",51,4,47,1,Lower Eocene,Fish otoliths,?18O,22.3,0.6,0.6,"Vanhove et al., 2011",Marine,Late Paleocene-Early Eocene,Early Eocene
+"Siberean Seaway, Kazakhstan",53.3,73.3,51.3,64.9,Lower Eocene,GDGTs,TEX86,21.9,3.2,3.5,"Frieling et al., 2014; Naafs et al., 2018",Marine,Late Paleocene-Early Eocene,Early Eocene
+"West Siberia Sea, Russia",53.5,73.5,52,65,Lower Ypresian,GDGTs,TEX86,24,0.6,0.6,"Ho et al., 2016",Marine,Late Paleocene-Early Eocene,Early Eocene
+"ACEX (302-4A), Arctic ocean",87.9,136.2,81,43,Lower Ypresian,GDGTs,TEX86,20,0.6,0.6,"Ho et al., 2016",Marine,Late Paleocene-Early Eocene,Early Eocene
+"Lowana Road fossil site Tasmania, Australia",-42.2,145.3,-63.9,153.2,Lower Eocene,Plant fossil,Coexistence Approach,23.7,3.3,3.3,"Carpenter et al., 2012; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"IODP Site 1172, Tasman ocean",-43.6,149.6,-63.9,161,Lower Eocene,GDGTs,MBT/CBT,21.4,5.1,5.1,"Bijl et al., 2013; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Wilkesland, Indian ocean",-63.2,135.6,-63.6,132.1,Lower Eocene,Plant fossil,Coexistence Approach,18.6,4.5,4.5,"Pross et al., 2012; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Wilkesland IODP Site U1356, Indian ocean",-63.2,135.6,-63.6,132.1,Lower Eocene,GDGTs,MBT/CBT,20.1,5.2,5.2,"Bijl et al., 2013; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Otaio, New Zealand",-45,171,-55,-162,Lower Eocene directly after PETM,Lignite GDGTS,MBT‘5me,27.9,4.8,4.8,"Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Otaio section, Canterbury, New Zealand",-45,171,-55,-162,Lower Eocene,Plant fossil,CLAMP/Leaf margin analysis,20.8,3.4,3.4,"Pancost et al., 2013/Wing and Greenwood, 1993",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Otaio section, Canterbury, New Zealand",-45,171,-54,-163,Lower Eocene,Plant fossil,Coexistence Approach,18.9,3.4,3.4,"Contreras et al., 2014",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Mid-Waipara River, New Zealand",-43.1,172.7,-53.3,-159.9,Lower Eocene,GDGTs,MBT/CBT,19.6,5.8,5.8,"Pancost et al., 2013; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Pichileufu, Argentina",-41,-71,-43,-61,Lower Eocene,Plant fossil,Leaf margin analysis,20.6,2.1,2.1,"Hinojosa and Villagran, 2005",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Laguna del Hunco, Chile",-36,-71,-38,-61,Lower Eocene,Plant fossil,Leaf margin analysis,19.3,2.2,2.2,"Hinojosa and Villagran, 2005",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+Salta Basin of northwestern Argentina,-25,-70,-27.5,-59,Lower Eocene,Paleosol carbonate,"Paleosol proxies, PWI climofunction",10.7,4.1,4.1,"Hyland et al., 2017; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+Salta Basin of northwestern Argentina,-25,-70,-27.5,-59,Lower Eocene,Paleosol carbonate,"Paleosol proxies, SAL climofunction",8.8,3.1,3.1,"Hyland et al., 2017; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Khadsaliya Clays, India",21.7,72.2,-7.3,61.4,Lower Eocene,Lignite GDGTS,MBT‘5me,28.5,4.7,4.7,"Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Matanomadh seam, India",21.5,69,-6.3,58.6,Lower to lower Middle Eocene,Lignite GDGTS,MBT‘5me,28.9,4.7,4.7,"Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Panandhro Seam, India",23.7,68.8,-4.2,59.3,Lower to lower Middle Eocene,Lignite GDGTS,MBT‘5me,28.5,4.7,4.7,"Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Gurha Mine, Rajasthan, India",28,73,-2,64,Lower Eocene,Plant fossil,CLAMP,24.3,2.8,2.8,"Shukla et al., 2014",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"San Juan Basin, Colorado, USA",28,-112,34,-98,Lower Eocene,Mammal tooth enamel,?18O,27.8,5.5,5.5,"Fricke and Wing, 2004",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+Gulf Coastal Plain USA,31.7,-88.1,34.1,-72.3,Lower Eocene,GDGTs,MBT/CBT,21.3,5,5,"Keating-Bitonti et al., 2011; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Big Bend, Texas, USA",30,-103,35,-98,Lower Eocene,Mammal tooth enamel,?18O,31.5,5.5,5.5,"Fricke and Wing, 2004",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Chuckanut Basin, Westerrn Washington, USA",39,-77,39,-62,Lower Eocene,Plant fossil,CLAMP/Leaf margin analysis,14.2,3.3,3.3,"Breedlovestrout, 2011",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Chuckanut Basin, Westerrn Washington, USA",39,-77,40,-59,Lower Eocene,Plant fossil,CLAMP/Leaf margin analysis,18.9,3.3,3.3,"Breedlovestrout, 2011",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Chalk Bluffs, Colorado, USA",39,-105,44,-88,Lower Eocene,Plant fossil,Leaf margin analysis,20,3.6,3.6,"Fricke and Wing, 2004",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Northern Basin and Range and Southern Sierra Nevada, USA",38.7,-114.9,44.8,-98.8,Lower Eocene,Lacustrine carbonate,Clumped isotope thermometry,18.9,6.5,6.5,"Lechler et al., 2013",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Messel, Hesse, Germany",49,8,45,5,Uppermost Ypresian,Plant fossil,Leaf margin analysis/Coexistence Approach,21.6,3,3,"Grein et al., 2011/Mosbrugger and Utescher, 1997",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Bighorn Basin, Wyoming, USA",40,-116,46,-100,Lower Eocene,Mammal tooth enamel,?18O,18.3,5.5,5.5,"Fricke and Wing, 2004",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Green River, Wyoming, USA",42,-109,47,-92,Lower Eocene,Mammal tooth enamel,?18O,15.5,5.5,5.5,"Fricke and Wing, 2004",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Green River, Wyoming, USA",42,-109,47,-92,Lower Eocene,Plant fossil,Leaf margin analysis,24.7,3.6,3.6,"Fricke and Wing, 2004",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Schöningen, Germany",52,11,47,8,P/E boundary to Lower Eocene,GDGTs,MBT/CBT,23.8,4.6,4.6,"Inglis et al., 2017",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Boar's Tusk outcrop, USA",42,-109.3,47.3,-91.8,Lower Eocene,Stromatolite,Clumped isotope thermometry,8.1,5.3,5.3,"Frantz et al., 2014",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+Boar's Tusk outcrop,42,-109.3,47.3,-91.8,Lower Eocene,Stromatolite,Clumped isotope thermometry,18.5,7.3,7.3,"Frantz et al., 2014",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+Boar's Tusk outcrop,42.3,-108.9,47.5,-91.3,Lower Eocene,Lacustrine oolitic,Clumped isotope thermometry,18.1,2.9,2.9,"Fan et al., 2014",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Green River Basin, USA",42.3,-108.5,47.5,-90.9,Lower Eocene,Paleosol carbonate,?18O,12,5.1,5.1,"Hyland and Sheldon, 2013; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Shulan, Jilin, China",45,127,48,119,Lower Eocene,Plant fossil,Coexistence Approach,17,1.6,1.6,"Quan et al., 2012",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Hualin, Heilongjiang, China",45,130,48,122,Lower Eocene,Plant fossil,Coexistence Approach,16,2.4,2.4,"Quan et al., 2012",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Wind River Basin, USA",43,-108.5,48.2,-90.7,Lower Eocene,Paleosol carbonate,"Paleosol proxies, PWI climofunction",8.9,4.1,4.1,"Hyland et al., 2013; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Kisinger Lakes, Wyoming, USA",44,-110,49,-92,Lower Eocene,Plant fossil,Leaf margin analysis,27.3,3.6,3.6,"Fricke and Wing, 2004",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Wyoming, USA",44,-111,50,-93,Lower Eocene,Plant fossil,Leaf margin analysis,22.8,3.6,3.6,"Fricke and Wing, 2004",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Yellowstone-Sepulcher, Wyoming, USA",45,-110,50,-92,Lower Eocene,Plant fossil,Leaf margin analysis,13.1,3.6,3.6,"Fricke and Wing, 2004",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Camel's Butte, Minnesota, USA",47,-94,50,-74,Lower Eocene,Plant fossil,Leaf margin analysis,11.7,3.6,3.6,"Fricke and Wing, 2004",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Bighorn Basin, USA",45,-108,50.1,-89.6,Lower Eocene,Paleosol carbonate,Clumped isotope thermometry,18.1,6.6,6.6,"Snell et al., 2013",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Powder River Basin, Wyoming, USA",46,-107,51,-88,Lower Eocene,Mammal tooth enamel,?18O,18.7,5.5,5.5,"Fricke and Wing, 2004",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Pugeot 9676/9677/9841 WA, USA",47.5,-121.8,52.1,-100.7,Lower Eocene,Plant fossil,CLAMP,16.5,2,2,"Yang et al., 2011; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Bear's Paw, Montana, USA",49,-109,54,-89,Lower Eocene,Plant fossil,Leaf margin analysis,14.2,3.6,3.6,"Fricke and Wing, 2004",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Princeton, Canada",49.5,-120.5,54.6,-102.3,Lower Eocene,Plant fossil,CLAMP,7.3,2,2,"Yang et al., 2011; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Chua Chua BC - CLAMP, Canada",49.5,-121.6,54.8,-103.7,Lower Eocene,Plant fossil,Leaf physiognomic data,7.3,2,2,"Yang et al., 2011; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Boot Hill WA (Republic), USA",48.5,-118.5,54.9,-100.2,Lower Eocene,Plant fossil,CLAMP,8.8,2,2,"Yang et al., 2011; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Knob Hill WA (Republic), USA",48.5,-118.5,54.9,-100.2,Lower Eocene,Plant fossil,CLAMP,11,2,2,"Yang et al., 2011; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Republic, USA",48.6,-118.7,55,-100.3,Lower Eocene,Plant fossil,Leaf physiognomic data,9.6,4.8,4.8,"Yang et al., 2011; Huber and Caballero, 2011; Peppe et al., 2011; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Quilchena, Canada",50.1,-120.5,55.2,-102.1,Lower Eocene,Plant fossil,Leaf physiognomic data,19,3.6,3.6,"Huber and Caballero, 2011; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"McAbee, British Columbia, Canada",51,-121,56,-102,Lower Eocene,Plant fossil,Leaf margin analysis,12.8,3.6,3.6,"Fricke and Wing, 2004",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Site 913, Greenland",75.5,-6.9,65.4,8.1,Lower Eocene,Plant fossil,Nearest living relatives data,14.5,5.2,5.2,"Huber and Caballero, 2011; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Ellesmere Island, Arctic Canada",79,-94,78,-33,Lower Eocene,Mammal tooth enamel,?18O,6,5.5,5.5,"Fricke and Wing, 2004",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Ellesmere Island, Arctic Canada",79,-94,78,-33,Lower Eocene,Plant fossil,Leaf margin analysis/Coexistence Approach,6.1,5.5,5.5,"Eberle et al., 2010/Greenwood and Wing, 1995",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Belkovsky Island, Russia",75.5,136,78.3,115.6,Lower Eocene,Plant fossil,Nearest living relatives data,19.2,4.3,4.3,"Suan et al., 2017; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Ellesmere and Axel Heiberg Is., Canada",80,-99,79,-31,Lower Eocene,Plant fossil,Coexistence Approach,13.5,3,3,"Eberle et al., 2010",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"Faddeevsky Island, Russia",76,141.8,79.2,121.8,Lower Eocene,Plant fossil,Nearest living relatives data,19.1,3.3,3.3,"Suan et al., 2017; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Early Eocene
+"DSDP Site 527, Angola Basin, South Atlantic ocean",-15,3,-23,-7,Upper Paleocene to P/E boundary,Planktic foraminifera,Mg/Ca,29.9,0.5,0.5,"Jones et al., 2013 calculated from data in Tripati and Elderfield, 2004",Marine,Late Paleocene-Early Eocene,Late Paleocene
+"DSDP Site 528, Angola Basin, South Atlantic ocean",-15,3,-22,-7,Upper Paleocene to P/E boundary,Planktic foraminifera,?18O,18.2,0.6,0.6,"Jones et al., 2013 calculated from data in Thomas et al., 1999",Marine,Late Paleocene-Early Eocene,Late Paleocene
+Tanzania,-6,30,-16,22,P/E boundary,GDGTs,TEX86,34,2.5,2.5,"Hollis et al., 2012",Marine,Late Paleocene-Early Eocene,Late Paleocene
+Tanzania,-6,30,-16,22,P/E boundary,Planktic foraminifera,?18O,32.5,2,2,"Hollis et al., 2012",Marine,Late Paleocene-Early Eocene,Late Paleocene
+"ODP Site 959, Guinea",3.6,-2.7,-2.9,-9.5,Upper Paleocene to P/E boundary to Lower Ypresian,GDGTs,TEX86,35.3,0.7,0.7,"Frieling et al., 2018",Marine,Late Paleocene-Early Eocene,Late Paleocene
+"ODP Site 960, Guinea",3.6,-2.7,-2.9,-9.5,Upper Paleocene to P/E boundary to Lower Ypresian,GDGTs,TEX86,33.8,0.7,0.7,"Cramwinckel et al., 2018",Marine,Late Paleocene-Early Eocene,Late Paleocene
+"IB10B Core, Dahomey Basin, Nigria",/,/,-0.7,-1.9,Upper Paleocene to P/E boundary to Lower Ypresian,GDGTs,TEX86,33.8,0.7,0.7,"Frieling et al., 2017",Marine,Late Paleocene-Early Eocene,Late Paleocene
+"Sagamu Quarry, Nigeria",/,/,-0.7,-1.9,Upper Paleocene to P/E boundary,GDGTs,TEX86,33.6,0.7,0.7,"Frieling et al., 2017",Marine,Late Paleocene-Early Eocene,Late Paleocene
+"ODP Site 865, Allison Guyot, Pacific",18,180,7,-151,Upper Paleocene to P/E boundary,Planktic foraminifera,Mg/Ca,31.2,0.8,0.8,"Jones et al., 2013 calculated from data in Tripati and Elderfield, 2004",Marine,Late Paleocene-Early Eocene,Late Paleocene
+"ODP Site 866, Allison Guyot, Pacific",18,180,7,-151,Upper Paleocene to P/E boundary,Planktic foraminifera,?18O,21.3,1.4,1.4,"Jones et al., 2013 calculated from data in Kelly et al., 1998",Marine,Late Paleocene-Early Eocene,Late Paleocene
+"ODP Site1209, Shatsky Rise, Pacific",33,159,23,-170,Upper Paleocene to P/E boundary,Planktic foraminifera,Mg/Ca,31.5,0.8,0.8,"Jones et al., 2013 calculated from data in Zachos et al., 2003",Marine,Late Paleocene-Early Eocene,Late Paleocene
+"ODP Site1210, Shatsky Rise, Pacific",33,159,23,-170,Upper Paleocene to P/E boundary,Planktic foraminifera,?18O,21.2,1.2,1.2,"Jones et al., 2013 calculated from data in Zachos et al., 2003",Marine,Late Paleocene-Early Eocene,Late Paleocene
+"Wilson Lake, New Jersey, USA",39,-75,39,-57,Upper Paleocene to P/E boundary to Lower Ypresian,GDGTs,TEX86,30.2,0.9,0.9,"Jones et al., 2013/Ho et al., 2016",Marine,Late Paleocene-Early Eocene,Late Paleocene
+"Wilson Lake, New Jersey, USA",39,-75,39,-57,P/E boundary,Planktic foraminifera,?18O,28.6,0.7,0.7,"Zachos et al., 2006",Marine,Late Paleocene-Early Eocene,Late Paleocene
+"Bass River, New Jersy, USA",40,-75,40,-57,Upper Paleocene to P/E boundary,GDGTs,TEX86,31.7,1.1,1.1,"Jones et al., 2013 calculated from data in Sluijs et al., 2007",Marine,Late Paleocene-Early Eocene,Late Paleocene
+"Bass River, New Jersy, USA",40,-75,40,-55,Upper Paleocene to P/E boundary,Planktic foraminifera,?18O,25.6,2.2,2.2,"Jones et al., 2013 calculated from data in John et al., 2008",Marine,Late Paleocene-Early Eocene,Late Paleocene
+"North Sea 1 (Store Baelt), Denmark",55.3,11.1,50.4,7.8,Upper Paleocene to P/E boundary to Lower Ypresian,GDGTs,TEX86,22.7,3.5,3.6,"Schoon et al., 2015; Naafs et al., 2018",Marine,Late Paleocene-Early Eocene,Late Paleocene
+"North Sea 2 (Fur), Denmark",56.8,9,51.9,5.9,Upper Paleocene to P/E boundary to Lower Ypresian,GDGTs,TEX86,15.7,3,3.8,"Schoon et al., 2015; Naafs et al., 2018",Marine,Late Paleocene-Early Eocene,Late Paleocene
+"James Ross, Antarctica",-65,-64,-64,-73,Uppermost Lower Paleocene to Lower Eocene,Plant fossil,Wood physiognomy/Coexistence Approach,14.7,3,3,"Poole et al., 2005/Mosbrugger and Utescher, 1997",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"ODP Site 1172, Tasman ocean",-44,150,-64,162,Middle Paleocene to Lower Eocene,Plant fossil,Coexistence Approach,11.8,5.2,5.2,"Contreras et al., 2014",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"Dean’s Marsh, Indian ocean",-38.4,143.9,-60.8,148.1,Upper Paleocene to Lower Eocene,Plant fossil,Nearest living relatives data,18.8,2.9,2.9,"Huber and Caballero, 2011; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+Australia,-38,145,-60,148,Middle Paleocene to Lower Eocene,Plant fossil,Coexistence Approach,16.2,8.7,8.7,"Contreras et al., 2014",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"Brandy Creek, Australia",-38.1,145.9,-60,150.9,Upper Paleocene to Lower Eocene,Plant fossil,Leaf physiognomic data,18.2,2.2,2.2,"Huber and Caballero, 2011; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"Hotham Heights, Australia",-37.1,147.2,-58.7,152.1,Upper Paleocene to Lower Eocene,Plant fossil,Leaf physiognomic data,17.9,2.3,2.3,"Huber and Caballero, 2011; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"Waipara, Canterbury, New Zealand",-43,173,-55,-159,Upper Paleocene,Plant fossil,Coexistence Approach,15.2,2.8,2.8,"Contreras et al., 2014",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"Kasnau Matasukh seam, India",27.1,74.1,-2.9,65,Upper Paleocene,Lignite GDGTS,MBT‘5me,28.6,4.7,4.7,"Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"Barsingsar, India",27.8,73.2,-1.9,64.6,Upper Paleocene,Lignite GDGTS,MBT‘5me,28,4.7,4.7,"Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"Cerrejón, Columbia",11.1,-72.6,8.6,-60.5,Upper Paleocene,Snake,NRLs,29.5,1.5,1.5,"Head et al., 2009",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"Florida, USA",26,-81,27,-66,P/E boundary,Plant fossil,CLAMP,22.9,3.6,3.6,"Kowalski and Dilcher, 2002",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"Dilcher's Woods-swamp, Florida, USA",30,-82,31,-67,P/E boundary,Plant fossil,CLAMP,21,3.6,3.6,"Kowalski and Dilcher, 2002",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"Big Hammock WMA, Georgia, USA",32,-82,33,-66,P/E boundary,Plant fossil,CLAMP,20,3.6,3.6,"Kowalski and Dilcher, 2002",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"Harrell Core, Meridian, USA",32.3,-88.7,34.7,-72.8,Uppermost Paleocene directly below PETM,GDGTs,MBT/CBT,21.3,5,5,"Sluijs et al., 2014; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"Shandong, China",36.3,120.1,37.7,111.8,Paleocene,Paleosol carbonate,Clumped isotope thermometry,19.7,7.1,7.1,"Zhang et al., 2016",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"Fushun, Liaoning, China",42,124,44,116,Upper Paleocene to Middle Eocene,Plant fossil,Coexistence Approach,16.8,3,3,"Quan et al., 2012",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"Axhandle Canyon, USA",40,-110,45.5,-93.1,P/E boundary,Paleosol carbonate,Clumped isotope thermometry,30.1,5,5,"VanDeVelde et al., 2013",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"Bighorn Basin, Wyoming, USA",40,-116,46,-100,P/E boundary,Plant fossil,Leaf margin analysis,18.2,3.3,3.3,"Wing et al., 2000",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"Cobham, UK",51.4,0.4,46.4,-1.7,Pre-PETM,Lignite GDGTS,MBT‘5me,24.6,4.8,4.8,"Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"Bighorn Basin, Wyoming, USA",40,-116,47,-97,Upper Paleocene,Plant fossil,Leaf margin analysis,15.5,3.3,3.3,"Wing et al., 2000",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"Schöningen, Germany",52,11,47,8,Very Uppermost Paleocene/Lowest Eocene,Lignite GDGTS,MBT‘5me,27.3,4.8,4.8,"Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"BHB Polecat Bench, USA",44,-107.7,49,-89.5,Upper Paleocene to Lower Eocene,Plant fossil,Leaf physiognomic data,21.7,9.1,6.4,"Huber and Caballero, 2011; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"North Sea 1 (Store Baelt), Danmark",55.3,11.1,50.4,7.8,Uppermost Paleocene,GDGTs,MBT/CBT,18.7,5.1,5.1,"Schoon et al., 2015; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"North Sea 2 (Fur), Danmark",56.8,9,51.9,5.9,Uppermost Paleocene,GDGTs,MBT/CBT,17.6,5.2,5.2,"Schoon et al., 2015; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"Falkland, Canada",50.5,-119.6,55.4,-100.9,Upper Paleocene to Lower Eocene,Plant fossil,Leaf physiognomic data,8.9,3.6,3.6,"Huber and Caballero, 2011; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"Horsefly, Canada",52.3,-121.4,57.5,-102.1,Upper Paleocene to Lower Eocene,Plant fossil,Leaf physiognomic data,12.9,3.6,3.6,"Huber and Caballero, 2011; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"Driftwood Canyon, Canada",54.8,-127,60.7,-107.2,Upper Paleocene to Lower Eocene,Plant fossil,Leaf physiognomic data,8.3,3.6,3.6,"Huber and Caballero, 2011; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"Kulthieth, USA",60.1,-142.7,65.2,-120.4,Upper Paleocene to Lower Eocene,Plant fossil,CLAMP,19.2,2,2,"Huber and Caballero, 2011; Yang et al., 2011; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"ACEX IODP 302, Arctic ocean",87.5,136.1,81.6,45.7,Uppermost Paleocene directly below PETM,GDGTs,MBT/CBT,15.6,5,5,"Weijers et al., 2007; Naafs et al., 2018",Terrestrial,Late Paleocene-Early Eocene,Late Paleocene
+"Algarrobo, Chile",-33.4,-71.7,-35,-58,Upper Campanian to Lower Maastrichtian,Fish tooth enamel,?18O,22.4,2.7,2.7,"Recalculated from Pucéat et al., 2007",Marine,Latest Cretaceous,Campanian
+"Las Tablas, Chile",-28,-71,-30,-57,Upper Campanian to Lower Maastrichtian,Fish tooth enamel,?18O,23.7,2.7,2.7,"Recalculated from Pucéat et al., 2007",Marine,Latest Cretaceous,Campanian
+"Baja CA, Rosario Fm., San Antonio del mar section 1, Mexico",31,-116.2,36,-96,Upper Campanian to Lower Maastrichtian,Planktonic foraminifera,?18O,28,2.9,2.9,"Upchurch et al., 2015",Marine,Latest Cretaceous,Campanian
+"Alpha Ridge, Arctic ocean",85,-98,78,14,Upper Campanian to Lower Maastrichtian,GDGTs,TEX86,17,2.5,2.5,"Recalculated from Jenkyns et al., 2004",Marine,Latest Cretaceous,Campanian
+New Zealand,-46,170,-58,-165,Upper Campanian to Maastrichtian,Plant fossil,CLAMP/Leaf margin analysis,14,2.8,2.8,"Kennedy et al., 2002",Terrestrial,Latest Cretaceous,Campanian
+"Olmos, Mexico",27.5,-101,33,-83,Upper Campanian to Lower Maastrichtian,Plant fossil,CLAMP/Leaf margin analysis,24.5,2.8,2.8,"Upchurch et al., 2015",Terrestrial,Latest Cretaceous,Campanian
+"Texas, USA",30,-103,36,-85,Upper Campanian to Palecene,Crocodile/dinosaur/paleosol carbonate,?18O,18.9,1.1,1.1,"Upchurch et al., 2015 calculated from data in Amiot et al., 2004",Terrestrial,Latest Cretaceous,Campanian
+France,43,3,36,1,Upper Campanian to Lower Maastrichtian,Crocodile/dinosaur,?18O,22,2.1,2,"Upchurch et al., 2015 calculated from data in Amiot et al., 2004",Terrestrial,Latest Cretaceous,Campanian
+"McRae Formation, Jose Creek Member, USA",33.2,-107.2,40,-88,Upper Campanian or Lower Maastrichtian,Plant fossil,Leaf margin analysis,22,2.3,2.3,"Upchurch et al., 2015",Terrestrial,Latest Cretaceous,Campanian
+"Songliao Basin, China",44.2,124.3,45.9,113.5,Upper Campanian to Danian,Paleosol Carbonate,Clumped isotope thermometry,9.9,5.6,5.6,"Zhang et al., submitted",Terrestrial,Latest Cretaceous,Campanian
+"Utah, USA",39.5,-111.5,47.7,-87.4,Upper Campanian,Paleosol Carbonate,Clumped isotope thermometry,21.5,6.8,6.8,"Snell et al., 2014",Terrestrial,Latest Cretaceous,Campanian
+"Montana, USA",46,-105,52,-82,Upper Campanian,Lacustrine Carbonate,Clumped isotope thermometry,11.1,6.1,6.1,"Snell et al., 2014",Terrestrial,Latest Cretaceous,Campanian
+"Montana, USA",46,-105,52,-82,Upper Campanian,Crocodile/dinosaur,?18O,12,2.8,1.3,"Upchurch et al., 2015 calculated from data in Amiot et al., 2004",Terrestrial,Latest Cretaceous,Campanian
+"Alberta, Canada",50,-105,56,-80,Upper Campanian,Crocodile/dinosaur,?18O/Modern Thermal Tolerances,12,2,3.7,"Upchurch et al., 2015 calculated from data in Amiot et al., 2004/Markwick, 1998",Terrestrial,Latest Cretaceous,Campanian
+"Chignik flora, Alaska",56.3,-158.5,69,-147,Upper Campanian,Plant fossil,Leaf margin analysis,13,3.2,3.2,"Upchurch et al., 2015",Terrestrial,Latest Cretaceous,Campanian
+"Eidsbotn graben, Devon Island, Nunavut, Canada",76.3,-91.2,74.3,-27.2,Upper Campanian,GDGTs,MBT'5ME,16.3,4.8,4.8,"Super et al., 2018",Terrestrial,Latest Cretaceous,Campanian
+"Colville, USA",70,-151,81,-132,Upper Campanian,Dinosaur,?18O,3,3.1,3,"Upchurch et al., 2015 calculated from data in Amiot et al., 2004",Terrestrial,Latest Cretaceous,Campanian
+"Seymour Island, Antarctica",-64.3,-56.8,-63,-66.8,K-Pg boundary,Bivalve,Clumped isotope thermometry,7.7,3.4,3.4,"Petersen et al., 2016",Marine,Latest Cretaceous,Maastrichtian
+"Vega Island, Antarctic Peninsula",-64,-57.7,-63,-67,Maastrichtian,Mollusc,?18O,11.7,1.6,1.6,"Pirrie and Marshall, 1990",Marine,Latest Cretaceous,Maastrichtian
+"mid-Waipara River, Newzealand",-43.1,172.7,-55.8,-155.8,Maastrichtian,GDGTs,TEX86,20.6,2.5,2.5,"Taylor et al., 2018",Marine,Latest Cretaceous,Maastrichtian
+"Falkland Plateau, South Atlantic ocean",-51,-47,-54.5,-35.6,Maastrichtian,Planktonic foraminifera,?18O,10,2.9,2.9,"Huber et al., 1995",Marine,Latest Cretaceous,Maastrichtian
+"Bajada del Jagüel (BJ) shelf site, Argentina",-38.1,-68.4,-40.5,-56.8,Maastrichtian,GDGTs,TEX86,27.2,2.5,2.5,"Woelders et al., 2017",Marine,Latest Cretaceous,Maastrichtian
+Southern coastal Tanzania,-8,39,-21,30,Maastrichtian,Glassy foraminifera,?18O,31,2.9,2.9,"Pearson et al.,2001",Marine,Latest Cretaceous,Maastrichtian
+"Wobejebato Guyot, Pacific ocean",12,164.9,0,-164,Maastrichtian,Rudist,?18O,32,1.2,1.2,"Upchurch et al., 2015",Marine,Latest Cretaceous,Maastrichtian
+"Jebel Rawdah, Oman",24.7,54.8,6,46,Maastrichtian,Rudist,?18O,32.5,1.6,1.6,"Upchurch et al., 2015",Marine,Latest Cretaceous,Maastrichtian
+Jamaica,18.1,-78,18,-78,Maastrichtian,Rudist,?18O,32,1.6,1.6,"Upchurch et al., 2015",Marine,Latest Cretaceous,Maastrichtian
+Israel,32,34.5,18,29,Maastrichtian,Fish tooth enamel,?18O,28.6,2.7,2.7,"Recalculated from Pucéat et al., 2007",Marine,Latest Cretaceous,Maastrichtian
+"Aderet 1 borehole, Israel",32,34.5,19,29,Maastrichtian,GDGTs,TEX86,28,2.5,2.5,"Recalculated from Alsenz et al., 2013",Marine,Latest Cretaceous,Maastrichtian
+"PAMA Quarry (Efe syncline), Israel",32,34.5,19,29,Maastrichtian,GDGTs,TEX86,26.6,2.5,2.5,"Recalculated from Alsenz et al., 2013",Marine,Latest Cretaceous,Maastrichtian
+Morocco,31.7,-8,23,-10,Maastrichtian,Fish tooth enamel,?18O,29.5,2.7,2.7,"Recalculated from Pucéat et al., 2007",Marine,Latest Cretaceous,Maastrichtian
+Tunisia,36,9,25,7,Maastrichtian,Fish tooth enamel,?18O,26.9,2.7,2.7,"Recalculated from Ounis et al., 2008",Marine,Latest Cretaceous,Maastrichtian
+"El Kef, Tunishia",36.2,8.7,25.9,7,Maastrichtian,Fish tooth enamel,?18O,20.7,0.3,0.3,"MacLeod et al., 2018",Marine,Latest Cretaceous,Maastrichtian
+"Corsicana Fm., Brazos River, USA",31,-97,36,-77,K-Pg boundary,GDGTs,TEX86,29.7,2.5,2.5,"Vellekoop et al., 2014",Marine,Latest Cretaceous,Maastrichtian
+"Mullinax?1 and Mullinax?3 cores, Falls County, Texas, USA",31,-97,36,-77,Upper Maastrichtian,Very well preserved foraminifera,?18O,28,2.9,2.9,"Upchurch et al., 2015",Marine,Latest Cretaceous,Maastrichtian
+"Shuqualak Core, Mississippi, USA",33,-88.5,36,-67,Maastrichtian,GDGTs,TEX86,29.4,2.5,2.5,"Linnert et al., 2014",Marine,Latest Cretaceous,Maastrichtian
+"New Jersey,USA",40,-75,40,-52,Middle Maastrichtian,Fish tooth enamel,?18O,21.3,2.7,2.7,"Recalculated from Pucéat et al., 2007",Marine,Latest Cretaceous,Maastrichtian
+"Maastricht, The Netherlands",50.9,5.7,44,4,Maastrichtian,Fish tooth enamel,?18O,16.4,2.7,2.7,"Recalculated from Pucéat et al., 2007",Marine,Latest Cretaceous,Maastrichtian
+South Netherlands,50.9,5.7,44,4,Uppermost Maastrichtian,Mollusc,?18O,19.8,1.6,1.6,"Zakharov et al., 2006",Marine,Latest Cretaceous,Maastrichtian
+"Eben-Emael, Belqium",50.8,5.6,44,4.1,Upper Maastrichtian,Fish tooth enamel,?18O,20.7,2.7,2.7,"Recalculated from Pucéat et al., 2007",Marine,Latest Cretaceous,Maastrichtian
+"Nasilov, Poland",51.3,22,44,19,K-Pg boundary,Fish tooth enamel,?18O,19.5,2.7,2.7,"Recalculated from Pucéat et al., 2007",Marine,Latest Cretaceous,Maastrichtian
+"California, USA",/,/,48.4,/,Maastrichtian,Fish tooth enamel,?18O,16.4,2.7,2.7,"Recalculated from Pucéat et al., 2007",Marine,Latest Cretaceous,Maastrichtian
+"Fox Hills, South Dakota, USA",45.5,-100.7,50,-78,"Upper, but not uppermost, Maastrichtian",Fish otolith,?18O,19,1.6,1.6,"Carpenter et al., 2003",Marine,Latest Cretaceous,Maastrichtian
+"Krasnoyarka Formation, Sakhalin, Russia",47.3,142.5,51,136,Maastrichtian,Mollusc,?18O,8.3,1.6,1.6,"Zakharov et al., 2006",Marine,Latest Cretaceous,Maastrichtian
+"Koryak Upland, Russia",60,168,70,168,Maastrichtian,Mollusc,?18O,14.7,1.6,1.6,"Zakharov et al., 2006",Marine,Latest Cretaceous,Maastrichtian
+"King George Island, James Ross Basin, Antarctica",-64,-57.7,-63,-67,Lower Paleocene,Plant fossil,CLAMP,14.2,0.7,0.7,"Poole et al., 2005",Terrestrial,Latest Cretaceous,Maastrichtian
+"Seymour Island, Antarctic Peninsula",-64.2,-56.6,-63,-67,Uppermost Maastrichtian to Paleocene,GDGTs,MBT/CBT,11,5,5,"Kemp et al., 2014",Terrestrial,Latest Cretaceous,Maastrichtian
+"King George Island, James Ross Basin, Antarctica",-64,-57.7,-63,-67,Upper Maastrichtian to Lower Paleocene,Plant fossil,Wood anatomy,11.9,5.4,5.4,"Poole et al., 2005",Terrestrial,Latest Cretaceous,Maastrichtian
+Southern New Zealand,-43.6,172,-55.3,-160,Danian,GDGTs,MBT/CBT,14.5,4.9,4.9,"Pancost et al., 2013",Terrestrial,Latest Cretaceous,Maastrichtian
+Madagascar,-20,45,-33,36,Lower Maastrichtian,Crocodile/dinosaur,?18O,27.5,2.3,-2.1,"Upchurch et al., 2015 calculated from data in Amiot et al., 2004",Terrestrial,Latest Cretaceous,Maastrichtian
+"Lameta Formation, India",16,76,-25,58,"Maastrichtian, not Uppermost Maastrichtian",Crocodile,?18O,18,2.1,3,"Upchurch et al., 2015 calculated from data in Amiot et al., 2004",Terrestrial,Latest Cretaceous,Maastrichtian
+Bolivia,-18,-65,-21,-51,Middle Maastrichtian,Crocodile,?18O,25,3,2.5,"Upchurch et al., 2015 calculated from data in Amiot et al., 2004",Terrestrial,Latest Cretaceous,Maastrichtian
+"Ripley, USA",35,-88.4,38,-68,Lower Maastrichtian,Plant fossil,CLAMP/Leaf margin analysis,19.9,2.8,2.8,"Spicer and Herman, 2010/Upchurch et al., 2015",Terrestrial,Latest Cretaceous,Maastrichtian
+"Vermejo, USA",37,-104.5,43,-85,Upper Maastrichtian,Plant fossil,CLAMP/Leaf margin analysis,20.5,2.8,2.8,"Wolfe, 1990/Upchurch et al., 2015",Terrestrial,Latest Cretaceous,Maastrichtian
+"Zaisan, Kazakhstan",48,84.9,45,67,Maastrichtian,Plant fossil,CLAMP,11,2.8,2.8,"Goloneva, 2000",Terrestrial,Latest Cretaceous,Maastrichtian
+"Laramie, USA",39.6,-105,46,-84,Upper Maastrichtian,Plant fossil,CLAMP/Leaf margin analysis,21.4,3.1,3.1,"Wolfe, 1990/Upchurch et al., 2015",Terrestrial,Latest Cretaceous,Maastrichtian
+"Medicine Bow, USA",41.9,-107,48,-86,Upper Maastrichtian,Plant fossil,CLAMP/Leaf margin analysis,18.6,2.8,2.8,"Spicer and Herman, 2010/Upchurch et al., 2015",Terrestrial,Latest Cretaceous,Maastrichtian
+"Lance, USA",43.1,-104.6,49,-84,Upper Maastrichtian,Plant fossil,CLAMP/Leaf margin analysis,16.7,2.8,2.8,"Spicer and Herman, 2010/Upchurch et al., 2015",Terrestrial,Latest Cretaceous,Maastrichtian
+"North Dakota, USA",46.3,-103.9,52,-80,Upper Maastrichtian,Plant fossil,CLAMP/Leaf margin analysis/Digital Leaf Physiognomy,14.8,3.4,3.4,"Wilf et al., 2003/Peppe et al., 2011/Goloneva, 2000",Terrestrial,Latest Cretaceous,Maastrichtian
+"Sakhalin, Russia",49,143,53,136,Maastrichtian,Plant fossil,CLAMP,14,2.8,2.8,"Goloneva, 2000",Terrestrial,Latest Cretaceous,Maastrichtian
+"Montana, USA",47.5,-107,53.9,-81.9,Upper Maastrichtian,Bivalve,Clumped isotope thermometry,11.7,2.8,2.8,"Tobin et al., 2014",Terrestrial,Latest Cretaceous,Maastrichtian
+"Willliston Basin, USA",48.2,-103.6,53.9,-77.9,Lower Paleocene,Plant fossil,Digital Leaf Physiognomy,12.4,3.3,3.3,"Peppe et al., 2011",Terrestrial,Latest Cretaceous,Maastrichtian
+"Edmonton, Alberta, Canada",53,-113.5,60,-88,Maastrichtian,Plant fossil,CLAMP,12,2.8,2.8,"Goloneva, 2000",Terrestrial,Latest Cretaceous,Maastrichtian
+"Lower Atanikerdluk flora, Greenland",70,-52,61,-19,Maastrichtian,Plant fossil,Leaf margin analysis,24,2,2,"Upchurch et al., 2015",Terrestrial,Latest Cretaceous,Maastrichtian
+"Koryak, NE Russia",60,168,70,168,Maastrichtian,Plant fossil,CLAMP,4,2.8,2.8,"Goloneva, 2000",Terrestrial,Latest Cretaceous,Maastrichtian
+"Cantwell Formation, Sable Mountain, USA",63.5,-149.8,74,-132,Lower Maastrichtian,Plant fossil,CLAMP/Leaf margin analysis,7.5,2.8,2.8,"Tomisch et al., 2010",Terrestrial,Latest Cretaceous,Maastrichtian
+"Kakanut, NE Russia",63,174,75,174,Maastrichtian,Plant fossil,CLAMP,10,2.8,2.8,"Goloneva, 2000",Terrestrial,Latest Cretaceous,Maastrichtian
+"Raryktin, NE Russia",63,177,75,179,Maastrichtian,Plant fossil,CLAMP,11,2.8,2.8,"Goloneva, 2000",Terrestrial,Latest Cretaceous,Maastrichtian
+"Prince Creek Formation,North Slope, USA",70,-151,81,-132,Maastrichtian,Plant fossil,CLAMP (Extrapolation),6,2.8,2.8,"Spicer and Herman, 2010",Terrestrial,Latest Cretaceous,Maastrichtian
+"ODP Site 693A, Antarctic shelf",/,/,-70,/,Upper Aptian-Lower Albian,GDGTs,TEX86,25.7,/,/,Jenkyns et al. 2012,Marine,Early Cretaceous,Aptian-Albian
+"RNT Locality, Antlers Formation, Texas",/,/,30,/,Albian,Paleosol,Phyllosilicate stable isotopes,31,3,3,Andrzejewski and Tabor 2020,Terrestrial,Early Cretaceous,Aptian-Albian
+"JR Locality, Twin Mountains Formation, Texas",/,/,30,/,Aptian,Paleosol,Phyllosilicate stable isotopes,27.5,3,3,Andrzejewski and Tabor 2020,Terrestrial,Early Cretaceous,Aptian-Albian
+"PL Locality, Twin Mountains Formation, Texas",/,/,30,/,Aptian,Paleosol,Phyllosilicate stable isotopes,29.5,3,3,Andrzejewski and Tabor 2020,Terrestrial,Early Cretaceous,Aptian-Albian
+"Dean Locality, Antlers Formation, Oklahoma",/,/,30,/,Albian,Paleosol,Phyllosilicate stable isotopes,27,3,3,Andrzejewski and Tabor 2020,Terrestrial,Early Cretaceous,Aptian-Albian
+"Cross Locality, Antlers Formation, Oklahoma",/,/,30,/,Albian,Paleosol,Phyllosilicate stable isotopes,26,3,3,Andrzejewski and Tabor 2020,Terrestrial,Early Cretaceous,Aptian-Albian
+"DSDP 534, North Atlantic ocean",28.343,-75.382,15,/,Berriasian-Barremian,GDGTs,TEX86,36.1,/,/,Littler et al. 2011,Marine,Early Cretaceous,Berriasian-Barremian
+"DSDP 603, North Atlantic ocean",35.495,-70.028,20,/,Berriasian-Barremian,GDGTs,TEX86,35.6,/,/,Littler et al. 2011,Marine,Early Cretaceous,Berriasian-Barremian
+"ODP 766, Indian ocean",-19.932,110.4541,-53,/,Valanginian-Barremian,GDGTs,TEX86,26.1,/,/,Littler et al. 2011,Marine,Early Cretaceous,Berriasian-Barremian
+"ODP 692, Weddell sea",-70.7239,-13.8199,-59,/,Valanginian-Hauterivian,GDGTs,TEX86,29,/,/,Littler et al. 2011,Marine,Early Cretaceous,Berriasian-Barremian
+"DSDP 249, Indian ocean",-29.95,36.077,-61,/,Berriasian-Barremian,GDGTs,TEX86,24,/,/,Littler et al. 2011,Marine,Early Cretaceous,Berriasian-Barremian
+"Gott section, NW Germany",52.254,10.123,33,/,Barremian,GDGTs,TEX86,28.95,/,/,Mutterlose et al. 2010,Marine,Early Cretaceous,Berriasian-Barremian
+"A39 section, NW Germany",52.464,10.736,33,/,Barremian-Aptian,GDGTs,TEX86,29.87,/,/,Mutterlose et al. 2010,Marine,Early Cretaceous,Berriasian-Barremian
+"Moorberg section, NW Germany",/,/,40,/,Lower Hauterivian-Lower Barremian,GDGTs,TEX86,26.77,/,/,Mutterlose et al. 2012,Marine,Early Cretaceous,Berriasian-Barremian
+"Speeton Section, NE England",/,/,41,/,Upper Hauterivian,GDGTs,TEX86,23.23,/,/,Mutterlose et al. 2012,Marine,Early Cretaceous,Berriasian-Barremian
+"DSDP Site 511, Falkland Plateau",-51,-47,-53,/,Hauterivian-Lower Aptian,Belemnites,Clumped isotope thermometry,25.7,3,3,Vickers et al. 2019,Marine,Early Cretaceous,Berriasian-Barremian
+"DSDP Site 511, Falkland Plateau",-51,-47,-53,/,Hauterivian-Lower Aptian,GDGTs,TEX86,27.3,/,/,Jenkyns et al. 2012,Marine,Early Cretaceous,Berriasian-Barremian
+"Río Guanaco, Argentina",-50.00,-72.00,-60,/,Berriasian,Belemnites,?18O,24.9,/,/,Gómez Dacal et al 2019,Marine,Early Cretaceous,Berriasian-Barremian
