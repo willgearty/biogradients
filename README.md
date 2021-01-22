@@ -15,9 +15,9 @@ Note that `Metabolic_model.10000.R` and `Metabolic_model.10000.supp.R` have long
 
 ## Climate model equatorial temperature distributions (upper panel main text figure 3):  
 To reproduce the equatorial temperature distributions plotted in the upper panel of Figure 3, run 'Temperature_data_extraction.R' after downloading the NetCDF files listed therein from the following webpages:  
-http://data.ceda.ac.uk/badc/cmip5/data/cmip5/output1/MOHC/HadGEM2-ES/historical/mon/ocean/Omon/r1i1p1/files/thetao_20110916 (Historical)  
-http://data.ceda.ac.uk/badc/cmip5/data/cmip5/output1/MOHC/HadGEM2-ES/rcp45/mon/ocean/Omon/r1i1p1/v20111206/thetao (RCP/ECP 4.5)  
-http://data.ceda.ac.uk/badc/cmip5/data/cmip5/output1/MOHC/HadGEM2-ES/rcp85/mon/ocean/Omon/r1i1p1/files/thetao_20111218 (RCP/ECP 8.5  
+Historical - http://data.ceda.ac.uk/badc/cmip5/data/cmip5/output1/MOHC/HadGEM2-ES/historical/mon/ocean/Omon/r1i1p1/files/thetao_20110916     
+RCP/ECP 4.5 - http://data.ceda.ac.uk/badc/cmip5/data/cmip5/output1/MOHC/HadGEM2-ES/rcp45/mon/ocean/Omon/r1i1p1/v20111206/thetao     
+RCP/ECP 8.5 - http://data.ceda.ac.uk/badc/cmip5/data/cmip5/output1/MOHC/HadGEM2-ES/rcp85/mon/ocean/Omon/r1i1p1/files/thetao_20111218      
 
 ## To replicate the analyses and plots presented here, the following R packages are required:  
 AICcmodvg  
