@@ -31,12 +31,12 @@ ggplot2
 Hmisc  
 MASS  
 mgcv  
-ncdf4
+ncdf4  
 paleoMap  
 plyr  
 raster  
 rgbif  
-RNetCDF
+RNetCDF  
 rworldmap  
 segmented  
 viridis  
