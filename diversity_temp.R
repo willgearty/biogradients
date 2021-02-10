@@ -15,6 +15,7 @@ library(mgcv)
 source("SQS-3-3.R")
 
 #Load PBDB data
+#Comment this out to download new PBDB data
 load("PBDBdata.RData")
 
 #Global settings####
@@ -471,7 +472,7 @@ for(band_type in band_types){
 }
 close(pb_main)
 
-#Figure S1####
+#Figure 1####
 #Plot occurrences
 library(deeptime)
 library(ggplot2)
@@ -483,33 +484,40 @@ colsea = "#00509005"
 colland = "#66666660"
 
 occs <- do.call(rbind, lapply(1:length(stages), function(i) get(paste(stages_abbr[i], "moll_raw", sep = "_")) %>%
-                                mutate(stage = stages[i]))) %>% mutate(stage = factor(stage, stages))
+                                mutate(stage = stages[i]))) %>% mutate(stage = factor(stage, c("Modern", stages)))
 gg_maps <- do.call(rbind, lapply(1:length(stages), function(i) fortify(get(stages_map[i])) %>%
-                                   mutate(stage = stages[i]))) %>% mutate(stage = factor(stage, stages))
+                                   mutate(stage = stages[i]))) %>% mutate(stage = factor(stage, c("Modern", stages)))
 
 time_ages <- data.frame(stages_abbr, start = c(3.333, 13.82, 33.9, 47.8, 56, 59.2, 72.1, 83.6, 145),
                         end = c(2.58, 5.333, 27.82, 37.8, 47.8, 56, 66, 72.1, 125))
-stages_with_ages <- setNames(paste0(stages, "\n(", time_ages$start, " - ", time_ages$end, " Ma)"), unique(gg_maps$stage))
+stages_with_ages <- setNames(c("Modern", paste0(stages, "\n(", time_ages$start, " - ", time_ages$end, " Ma)")), c("Modern", unique(as.character(gg_maps$stage))))
 
 ggplot(occs) +
   geom_polygon(data = gg_maps, aes(long, lat, group = group), fill = colland, color = "black") +
+  geom_polygon(data = fortify(get("Holocene")) %>% mutate(stage = factor("Modern", c("Modern", stages))),
+               aes(long, lat, group = group), fill = colland, color = "black") +
   geom_hex(aes(paleolng, paleolat), binwidth = 5) +
-  coord_fixed(xlim = c(-180, 180), ylim = c(-90, 90)) +
+  geom_hex(data = genera_loc %>% mutate(stage = factor("Modern", c("Modern", stages))),
+           aes(decimalLongitude, decimalLatitude), binwidth = 5) +
+  coord_cartesian(xlim = c(-180, 180), ylim = c(-90, 90)) +
   scale_x_continuous(expand = c(0,0), breaks = c(seq(-180,180,30)), minor_breaks = NULL) +
   scale_y_continuous(expand = c(0,0), breaks = c(seq(-90,90,30)), minor_breaks = NULL) +
   scale_fill_viridis(name = "# Occs", trans= "log10") +
-  facet_wrap(vars(stage), labeller = as_labeller(stages_with_ages)) +
-  theme_bw(base_size = 20) +
-  theme(legend.position = "right", axis.title = element_blank(), axis.text = element_text(colour = "black")) +
+  facet_wrap(vars(stage), scales = "free", ncol = 2,
+             labeller = as_labeller(stages_with_ages)) +
+  theme_bw(base_size = 28) +
+  theme(aspect.ratio = .5, legend.position = "right", axis.title = element_blank(),
+        axis.text = element_text(colour = "black"), axis.text.x = element_text(colour = c("black", NA))) +
   theme(panel.background = element_rect(fill = colsea), plot.margin = unit(c(.5,.5,.5,.5), "cm"),
         panel.spacing.y = unit(.5, "lines"), panel.spacing.x = unit(3, "lines"),
         strip.background = element_blank(), strip.placement = "outside",
-        strip.text = element_text(size = 30, margin = unit(c(.5,.5,.5,.5), "lines")))
-ggsave("Fossil Occurences by Stage.pdf", width = 28, height = 15)
+        strip.text = element_text(size = 28, margin = unit(c(.5,.5,.5,.5), "lines")))
+ggsave("Fossil Occurrences by Stage.pdf", width = 18, height = 25)
+#ggsave("Fossil Occurrences by Stage.svg", width = 18, height = 25)
 
 #Sampling Sensitivity####
-#Figure S3####
-ggplot(fossil_data, aes(specimens, div)) +
+#Figure S2A####
+samp_sens <- ggplot(fossil_data, aes(specimens, div)) +
   geom_vline(xintercept = c(30, 50, 200), size = 2, linetype = "11", color = "grey50") +
   geom_point(shape = 21, alpha = .3) +
   #geom_smooth() +
@@ -524,9 +532,9 @@ ggplot(fossil_data, aes(specimens, div)) +
         plot.margin = unit(c(1,1,1,1), "lines"), panel.border = element_rect(fill = NA)) +
   theme(panel.spacing = unit(0, "lines"), 
         strip.background = element_blank(), strip.placement = "outside", strip.text = element_text(margin = unit(c(1,.5,.5,.5), "lines")))
-ggsave("Sampling Sensitivity.pdf", width = 8, height = 12)
+ggsave("Sampling Sensitivity.pdf", samp_sens, width = 8, height = 12)
 
-#Figure S2####
+#Figure S1####
 #Latitude and Temperature Sampling
 library(deeptime)
 g1 <- ggplot(subset(fossil_data, metric == "raw" & band_type == "equal-area"), aes(SST_K - 273.15, specimens)) +
@@ -552,8 +560,9 @@ g2 <- ggplot(subset(fossil_data, metric == "raw" & band_type == "equal-area"), a
   facet_wrap(vars(num_bands), ncol = 1, labeller = as_labeller(function(x) paste(x, "latitude bins")))
 gg <- ggarrange2(g1, g2, nrow = 1, draw = FALSE)
 ggsave("Temperature and Latitude Sampling Intensity.pdf", gg, width = 16, height = 14)
+#ggsave("Temperature and Latitude Sampling Intensity.svg", gg, width = 16, height = 14)
 
-#Figure S10####
+#Figure S2B####
 #model fits before and after cutoffs
 test_models <- function(div.prop, SST_K, n_tries = 20) {
   library(segmented)
@@ -649,7 +658,7 @@ model_fits <- do.call(rbind, lapply(1:100, function (i) {
 
 library(ggplot2)
 library(viridis)
-ggplot(model_fits) +
+samp_mod_fits <- ggplot(model_fits) +
   geom_boxplot(aes(x = cutoff, y = AICc_weight, color = model, fill = model), size = .25, width = .99, position = position_dodge2(padding = .1)) +
   stat_summary(aes(x = cutoff, y = AICc_weight, group = interaction(cutoff, model)), fun = median, geom = "crossbar", size = .1, width = .99, position = position_dodge2(padding = .075)) +
   geom_vline(xintercept = c(1.5, 2.5, 3.5)) +
@@ -657,23 +666,29 @@ ggplot(model_fits) +
   ylab("AICc Weight") +
   scale_x_discrete(expand = c(0, 0)) +
   scale_y_continuous(lim = c(0,1)) +
-  scale_fill_viridis(name = "Model", discrete = TRUE, breaks = c("linear", "one_break", "two_breaks", "three_breaks", "four_breaks", "sec_ord", "third_ord", "fourth_order", "gam"),
+  scale_fill_viridis(name = "", discrete = TRUE, breaks = c("linear", "one_break", "two_breaks", "three_breaks", "four_breaks", "sec_ord", "third_ord", "fourth_order", "gam"),
                      labels = c("Linear", "Linear with 1 Breakpoint", "Linear with 2 Breakpoints", "Linear with 3 Breakpoints",
                                 "Linear with 4 Breakpoints", "Quadratic", "Cubic", "Quartic", "GAM"),
                      guide = guide_legend(nrow = 3)) +
-  scale_color_viridis(name = "Model", discrete = TRUE, breaks = c("linear", "one_break", "two_breaks", "three_breaks", "four_breaks", "sec_ord", "third_ord", "fourth_order", "gam"),
+  scale_color_viridis(name = "", discrete = TRUE, breaks = c("linear", "one_break", "two_breaks", "three_breaks", "four_breaks", "sec_ord", "third_ord", "fourth_order", "gam"),
                      labels = c("Linear", "Linear with 1 Breakpoint", "Linear with 2 Breakpoints", "Linear with 3 Breakpoints",
                                 "Linear with 4 Breakpoints", "Quadratic", "Cubic", "Quartic", "GAM"),
                      guide = guide_legend(nrow = 3)) +
   facet_wrap(vars(metric), ncol = 1,
              labeller = as_labeller(c("range" = "Rangethrough", "raw" = "Raw Occurrences", "SQS_0.25" = "SQS (q = .25)", "SQS_0.5" = "SQS (q = .5)", "SQS_0.75" = "SQS (q = .75)"))) +
-  theme_classic(base_size = 20, base_family = "") +
+  theme_classic(base_size = 24, base_family = "") +
   theme(axis.ticks = element_line(color = "black"),
         axis.line = element_blank(), axis.text = element_text(colour = "black"), legend.position = "top",
         plot.margin = unit(c(1,1,1,1), "lines"), panel.border = element_rect(fill = NA)) +
-  theme(panel.spacing = unit(0, "lines"),  legend.margin = margin(0,0,0,0, "lines"),
+  theme(panel.spacing = unit(0, "lines"),  legend.margin = margin(0,5,-2,0, "lines"),
         strip.background = element_blank(), strip.placement = "outside", strip.text = element_text(margin = unit(c(1,.5,.5,.5), "lines")))
-ggsave("Model Fits by Sampling Cutoff.pdf", width = 10, height = 12)
+ggsave("Model Fits by Sampling Cutoff.pdf", samp_mod_fits, width = 10, height = 12)
+
+#Figure 2 combined####
+samp_plots_comb <- ggarrange2(samp_sens, samp_mod_fits, widths = c(8, 10), heights = 12,
+                              labels = c("A", "B"), label.args = list(gp = grid::gpar(font = 2, cex = 4)))
+ggsave("Sampling Sensitivity and Model Fits.pdf", samp_plots_comb, width = 18, height = 12)
+#ggsave("Sampling Sensitivity and Model Fits.svg", samp_plots_comb, width = 18, height = 12)
 
 #Table 1####
 #pull out summary stats for main analysis model fitting
@@ -686,7 +701,6 @@ model_fits %>% filter(model == "linear") %>%
   group_by(metric, cutoff) %>%
   summarize(test = min(AICc_delta))
 
-#Figure S12####
 #plot allen-like results
 library(ggplot2)
 library(viridis)
@@ -694,7 +708,8 @@ ann_text <- data.frame(inc_modern = "yes", num_bands = 24, raw_prop = "prop",
                        div_metric = "SQS_0.25", band_type = "equal-area", slope2 = 3.5,
                        lab = "This Study")
 
-ggplot(fossil_results, aes(x = as.character(num_bands), y = slope2, shape = band_type)) +
+#Figure S4B####
+slope_plot <- ggplot(fossil_results, aes(x = as.character(num_bands), y = slope2, shape = band_type)) +
   scale_x_discrete(limits = as.character(sort(lat_bin_nums)), name = "Number of Latitudinal Bands") +
   scale_y_continuous(name = "Estimated Slope", sec.axis = sec_axis(~., labels = NULL)) +
   geom_rect(xmin = 0, xmax = 50, ymin = -7.65, ymax = -6.71, color = "grey80", fill = "grey80") +
@@ -723,9 +738,9 @@ ggplot(fossil_results, aes(x = as.character(num_bands), y = slope2, shape = band
   guides(color = guide_legend(order = 1), shape = guide_legend(order = 2)) +
   facet_grid(inc_modern~raw_prop, labeller = labeller(inc_modern = as_labeller(c('yes' = 'Including~Modern', 'no' = 'Not~Including~Modern'), label_parsed),
                                                       raw_prop = as_labeller(c('prop' = 'Proportional~Diversity', 'raw' = 'Raw~Diversity'), label_parsed)))
-ggsave("Allen Fossil Variations Slope.pdf", device = "pdf", width = 16, height = 10.5)
+ggsave("Allen Fossil Variations Slope.pdf", slope_plot, width = 16, height = 10.5)
 
-#Figure S11####
+#Figure S4A####
 ann_text <- data.frame(inc_modern = "yes", num_bands = 24, raw_prop = "prop",
                        div_metric = "SQS_0.25", band_type = "equal-area", breakpoint = 3.54,
                        lab = "This Study")
@@ -733,7 +748,7 @@ ann_rect <- fossil_results %>%
   filter(inc_modern == "yes", num_bands == 24, raw_prop == "prop", div_metric == "SQS_0.25", band_type == "equal-area") %>%
   summarize(ymin = breakpoint - 1.96*breakpoint_se, ymax = breakpoint + 1.96*breakpoint_se)
 
-ggplot(fossil_results, aes(x = as.character(num_bands), y = breakpoint, shape = band_type)) +
+break_plot <- ggplot(fossil_results, aes(x = as.character(num_bands), y = breakpoint, shape = band_type)) +
   scale_x_discrete(limits = as.character(sort(lat_bin_nums)), name = "Number of Latitudinal Bands") +
   scale_y_continuous(name = "Estimated Breakpoint (1000/K)",
                      sec.axis = sec_axis(~(1000/. - 273.15), name = expression("Estimated Breakpoint ("*degree*"C)"), labels = )) +
@@ -761,9 +776,14 @@ ggplot(fossil_results, aes(x = as.character(num_bands), y = breakpoint, shape = 
   guides(color = guide_legend(order = 1), shape = guide_legend(order = 2)) +
   facet_grid(inc_modern~raw_prop, labeller = labeller(inc_modern = as_labeller(c('yes' = 'Including~Modern', 'no' = 'Not~Including~Modern'), label_parsed),
                                                       raw_prop = as_labeller(c('prop' = 'Proportional~Diversity', 'raw' = 'Raw~Diversity'), label_parsed)))
-ggsave("Allen Fossil Variations Breakpoint.pdf", device = "pdf", width = 16, height = 10.5)
+ggsave("Allen Fossil Variations Breakpoint.pdf", break_plot, width = 16, height = 10.5)
 
-#Plotting####
+#Figure S4 combined####
+slope_break_comb <- ggarrange2(break_plot, slope_plot, widths = c(16, 16), heights = 10.5,
+                               labels = c("A", "B"), label.args = list(gp = grid::gpar(font = 2, cex = 4)))
+ggsave("Allen Fossil Variations.pdf", slope_break_comb, width = 32, height = 10.5)
+#ggsave("Allen Fossil Variations.svg", slope_break_comb, width = 32, height = 10.5)
+
 #Black, Orange, Sky Blue, Bluish green, Yellow, Blue, Vermillion, Reddish purple
 colors8 <- c(rgb(0,0,0), rgb(230/255, 159/255, 0/255), rgb(86/255, 180/255, 233/255), rgb(0/255, 158/255, 115/255), rgb(240/255,228/255,66/255), rgb(0/255, 114/255, 178/255), rgb(213/255,94/255,0/255), rgb(204/255,121/255,167/255))
 times <- c("modern", stages_abbr)
@@ -875,7 +895,7 @@ ggplot(data = fossil_data_sub, aes(x = lat_mid, y = SST_K)) +
   theme_bw() +
   facet_wrap(~time, ncol = 1)
 
-#Figure S4####
+#Figure S3####
 #Plot overlay of temperature and diversity by time bin
 #Proportional diversity
 # Adjust data for different y-axis scales
@@ -929,8 +949,9 @@ ggplot(data = fossil_data_sub, aes(x = lat_mid)) +
          linetype=guide_legend(byrow = TRUE, keyheight = 3, override.aes=list(alpha = .15, fill=c(time_colors[[1]], time_colors[[5]]), color = c(time_colors[[1]], time_colors[[5]]))),
          color = FALSE, fill = FALSE)
 ggsave("Temperature and Diversity Overlay (Prop).pdf", width = 15, height = 18)
+#ggsave("Temperature and Diversity Overlay (Prop).svg", width = 15, height = 18)
 
-#Figure 1####
+#Figure 2####
 #Modern and Early Cretaceous only
 ggplot(data = subset(fossil_data_sub, time %in% c("modern", "berr_barr")), aes(x = lat_mid)) +
   geom_smooth(aes(y = a + b*(div.prop), linetype = "dashed", color = "div", fill = "div"), method="gam", formula = y ~ s(x, k = 9), se = T, method.args = list(gamma = .5)) +
@@ -963,7 +984,7 @@ ggplot(data = subset(fossil_data_sub, time %in% c("modern", "berr_barr")), aes(x
   guides(linetype=guide_legend(override.aes=list(alpha = .15, fill=c(time_colors[[1]], time_colors[[5]]), color = c(time_colors[[1]], time_colors[[5]]))))
 ggsave("Temperature and Diversity Overlay Comparison.pdf", width = 15, height = 7.5)
 
-#Figure S5####
+#Figure S3-raw####
 #Raw diversity
 # Adjust data for different y-axis scales
 ylim.prim <- c(-13, 47) # Temperature range
@@ -1043,7 +1064,7 @@ ggplot(data = fossil_data_sub, aes(x = SST_K, y = div/div_tot)) +
   scale_y_continuous(name = "Percent Total Diversity") +
   theme_bw()
 
-#Figure 2####
+#Figure 3####
 #breakpoint regression
 library(segmented)
 library(broom)
@@ -1100,7 +1121,7 @@ ggplot() +
         legend.position = "bottom", legend.margin = margin(0,8,0,0, "lines"))
 ggsave("Diversity and Temperature with Breakpoint and Regression.pdf", device = "pdf", width = 12, height = 12)
 
-#Figure S6####
+#Figure 3-raw####
 #With Raw diversity
 reg <- lm(log(div) ~ SST_K, data = fossil_data_sub)
 glance(reg)
@@ -1181,8 +1202,7 @@ ggplot() +
         legend.position = "top", legend.margin = margin(0,0,0,0, "lines"))
 ggsave("Diversity and Temperature with Breakpoint and Regression without Modern.pdf", device = "pdf", width = 12, height = 12)
 
-#Figure S7####
-#Breakpoint Bootstrap
+#Breakpoint Bootstrap####
 #bootstrap observations to determine uncertainty of breakpoint
 library(segmented)
 nreps <- 1000
@@ -1286,8 +1306,7 @@ ggplot(data = subset_results, aes(x = SST_bin, y = mean, color = sample, group =
         legend.position = "right", legend.margin = margin(0,0,0,0, "lines"))
 ggsave("Diversity and Temperature Subsetting with Replacement.pdf", device = "pdf", width = 12, height = 12)
 
-#Figure S8####
-#sampling without replacement
+#sampling without replacement####
 subset_sizes <- seq(10,40,10)
 subset_results <- data.frame(SST_bin = rep(SST_bins$SST_bin, length(subset_sizes)), sample = rep(subset_sizes, each = n_bins), mean = NA, std_dev = NA)
 set.seed(42)
@@ -1335,8 +1354,7 @@ ks.test(log(fossil_data_sub_clean$div.prop), "pnorm", normfit$estimate)
 hist(log(fossil_data_sub_clean$div.prop), breaks = 10, prob = TRUE)
 curve(dnorm(x, mean = normfit$estimate[1], sd = normfit$estimate[2]), col = "red", add = TRUE)
 
-#Figure S9####
-#bin diversity data
+#uniform distribution test####
 library(MASS)
 library(plyr)
 
@@ -1580,7 +1598,6 @@ for(royrange in c(FALSE, TRUE)){
 }
 close(pb)
 
-#Figure S13####
 library(ggplot2)
 library(viridis)
 
