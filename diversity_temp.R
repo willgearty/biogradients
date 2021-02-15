@@ -490,7 +490,7 @@ gg_maps <- do.call(rbind, lapply(1:length(stages), function(i) fortify(get(stage
 
 time_ages <- data.frame(stages_abbr, start = c(3.333, 13.82, 33.9, 47.8, 56, 59.2, 72.1, 83.6, 145),
                         end = c(2.58, 5.333, 27.82, 37.8, 47.8, 56, 66, 72.1, 125))
-stages_with_ages <- setNames(c("Modern", paste0(stages, "\n(", time_ages$start, " - ", time_ages$end, " Ma)")), c("Modern", unique(as.character(gg_maps$stage))))
+stages_with_ages <- setNames(c("Modern\n(1700 - 2020)", paste0(stages, "\n(", time_ages$start, " - ", time_ages$end, " Ma)")), c("Modern", unique(as.character(gg_maps$stage))))
 
 ggplot(occs) +
   geom_polygon(data = gg_maps, aes(long, lat, group = group), fill = colland, color = "black") +
