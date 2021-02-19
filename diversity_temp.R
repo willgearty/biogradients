@@ -534,10 +534,10 @@ samp_sens <- ggplot(fossil_data, aes(specimens, div)) +
         strip.background = element_blank(), strip.placement = "outside", strip.text = element_text(margin = unit(c(1,.5,.5,.5), "lines")))
 ggsave("Sampling Sensitivity.pdf", samp_sens, width = 8, height = 12)
 
-#Figure S1####
+#Figure S1B-C####
 #Latitude and Temperature Sampling
 library(deeptime)
-g1 <- ggplot(subset(fossil_data, metric == "raw" & band_type == "equal-area"), aes(SST_K - 273.15, specimens)) +
+occ_temp <- ggplot(subset(fossil_data, metric == "raw" & band_type == "equal-area"), aes(SST_K - 273.15, specimens)) +
   geom_point(alpha = .3) +
   scale_x_continuous(name = expression("Mean Sea Surface Temperature of Bin ("*degree*"C)")) +
   scale_y_continuous(name = "# Occurrences", trans = "log10",
@@ -548,7 +548,7 @@ g1 <- ggplot(subset(fossil_data, metric == "raw" & band_type == "equal-area"), a
         plot.margin = unit(c(1,1,1,1), "lines"), panel.border = element_rect(fill = NA)) +
   facet_wrap(vars(num_bands), ncol = 1, labeller = as_labeller(function(x) paste(x, "latitude bins")))
 
-g2 <- ggplot(subset(fossil_data, metric == "raw" & band_type == "equal-area"), aes(lat_mid, specimens)) +
+occ_lat <- ggplot(subset(fossil_data, metric == "raw" & band_type == "equal-area"), aes(lat_mid, specimens)) +
   geom_point(alpha = .3) +
   scale_x_continuous(name = "Mean Paleolatitude of Bin") +
   scale_y_continuous(name = "# Occurrences", trans = "log10",
@@ -558,9 +558,8 @@ g2 <- ggplot(subset(fossil_data, metric == "raw" & band_type == "equal-area"), a
         axis.line = element_blank(), axis.text = element_text(colour = "black"),
         plot.margin = unit(c(1,1,1,1), "lines"), panel.border = element_rect(fill = NA)) +
   facet_wrap(vars(num_bands), ncol = 1, labeller = as_labeller(function(x) paste(x, "latitude bins")))
-gg <- ggarrange2(g1, g2, nrow = 1, draw = FALSE)
-ggsave("Temperature and Latitude Sampling Intensity.pdf", gg, width = 16, height = 14)
-#ggsave("Temperature and Latitude Sampling Intensity.svg", gg, width = 16, height = 14)
+occ_lat_and_temp <- ggarrange2(occ_lat, occ_temp, nrow = 1, draw = FALSE)
+ggsave("Temperature and Latitude Sampling Intensity.pdf", occ_lat_and_temp, width = 16, height = 14)
 
 #Figure S2B####
 #model fits before and after cutoffs
@@ -708,7 +707,7 @@ ann_text <- data.frame(inc_modern = "yes", num_bands = 24, raw_prop = "prop",
                        div_metric = "SQS_0.25", band_type = "equal-area", slope2 = 3.5,
                        lab = "This Study")
 
-#Figure S4B####
+#Figure S3B####
 slope_plot <- ggplot(fossil_results, aes(x = as.character(num_bands), y = slope2, shape = band_type)) +
   scale_x_discrete(limits = as.character(sort(lat_bin_nums)), name = "Number of Latitudinal Bands") +
   scale_y_continuous(name = "Estimated Slope", sec.axis = sec_axis(~., labels = NULL)) +
@@ -740,7 +739,7 @@ slope_plot <- ggplot(fossil_results, aes(x = as.character(num_bands), y = slope2
                                                       raw_prop = as_labeller(c('prop' = 'Proportional~Diversity', 'raw' = 'Raw~Diversity'), label_parsed)))
 ggsave("Allen Fossil Variations Slope.pdf", slope_plot, width = 16, height = 10.5)
 
-#Figure S4A####
+#Figure S3A####
 ann_text <- data.frame(inc_modern = "yes", num_bands = 24, raw_prop = "prop",
                        div_metric = "SQS_0.25", band_type = "equal-area", breakpoint = 3.54,
                        lab = "This Study")
@@ -778,7 +777,7 @@ break_plot <- ggplot(fossil_results, aes(x = as.character(num_bands), y = breakp
                                                       raw_prop = as_labeller(c('prop' = 'Proportional~Diversity', 'raw' = 'Raw~Diversity'), label_parsed)))
 ggsave("Allen Fossil Variations Breakpoint.pdf", break_plot, width = 16, height = 10.5)
 
-#Figure S4 combined####
+#Figure S3 combined####
 slope_break_comb <- ggarrange2(break_plot, slope_plot, widths = c(16, 16), heights = 10.5,
                                labels = c("A", "B"), label.args = list(gp = grid::gpar(font = 2, cex = 4)))
 ggsave("Allen Fossil Variations.pdf", slope_break_comb, width = 32, height = 10.5)
@@ -895,7 +894,7 @@ ggplot(data = fossil_data_sub, aes(x = lat_mid, y = SST_K)) +
   theme_bw() +
   facet_wrap(~time, ncol = 1)
 
-#Figure S3####
+#Figure S1A####
 #Plot overlay of temperature and diversity by time bin
 #Proportional diversity
 # Adjust data for different y-axis scales
@@ -911,7 +910,7 @@ temp$time <- "modern"
 
 time_names_with_ages <- setNames(c("Modern", paste0(stages, "\n(", time_ages$start, " - ", time_ages$end, " Ma)")), times)
 
-ggplot(data = fossil_data_sub, aes(x = lat_mid)) +
+overlay <- ggplot(data = fossil_data_sub, aes(x = lat_mid)) +
   geom_smooth(aes(y = a + b*(div.prop), linetype = "dashed", color = "div", fill = "div"), method="gam", formula = y ~ s(x, k = 9), se = T, method.args = list(gamma = .5)) +
   geom_point(aes(y = a + b*(div.prop), shape = "Diversity", color = "div", fill = "div"), size = 3) +
   geom_smooth(data = subset(paleotemps, !is.na(time)), aes(x = Paleolatitude, y = SST_K - 273.15, linetype = "solid", color = "temp", fill = "temp"), method="gam", formula = y ~ s(x, k = 9), se = T, fullrange = T, method.args = list(gamma = 1)) +
@@ -935,7 +934,7 @@ ggplot(data = fossil_data_sub, aes(x = lat_mid)) +
   scale_fill_manual(name = NULL, values = c("temp" = time_colors[[1]], "div" = time_colors[[5]]),
                     labels = c("temp" = "Temperature", "div" = "Proportional SQS Diversity"),
                     limits = c("temp", "div")) +
-  facet_wrap(~factor(time, levels = times), ncol = 3, labeller = as_labeller(time_names_with_ages)) +
+  facet_wrap(~factor(time, levels = times), ncol = 3, labeller = as_labeller(time_names_with_ages), scales = "free_x") +
   theme_classic(base_size = 24) +
   theme(axis.ticks = element_line(color = "black"), axis.line = element_blank(), axis.text = element_text(colour = "black"),
         plot.margin = unit(c(1,1,1,1), "lines"), panel.border = element_rect(fill = NA),
@@ -948,8 +947,13 @@ ggplot(data = fossil_data_sub, aes(x = lat_mid)) +
   guides(shape=guide_legend(order = 1, keyheight = 3.5, default.unit="lines", override.aes=list(alpha=c(.25,.25,1), color = c(time_colors[[1]], time_colors[[1]], time_colors[[5]]))),
          linetype=guide_legend(byrow = TRUE, keyheight = 3, override.aes=list(alpha = .15, fill=c(time_colors[[1]], time_colors[[5]]), color = c(time_colors[[1]], time_colors[[5]]))),
          color = FALSE, fill = FALSE)
-ggsave("Temperature and Diversity Overlay (Prop).pdf", width = 15, height = 18)
-#ggsave("Temperature and Diversity Overlay (Prop).svg", width = 15, height = 18)
+ggsave("Temperature and Diversity Overlay (Prop).pdf", overlay, width = 15, height = 18)
+
+#Figure S1 combined####
+lat_and_temp_comb <- ggarrange2(occ_lat, occ_temp, overlay, nrow = 1, widths = c(7.5, 7.5, 15), heights = 15,
+                              labels = c("A", "B", "C"), label.args = list(gp = grid::gpar(font = 2, cex = 4)))
+ggsave("Overlay and Occurrence Summaries.pdf", lat_and_temp_comb, width = 30, height = 15)
+#ggsave("Overlay and Occurrence Summaries.svg", lat_and_temp_comb, width = 30, height = 15)
 
 #Figure 2####
 #Modern and Early Cretaceous only
@@ -984,7 +988,7 @@ ggplot(data = subset(fossil_data_sub, time %in% c("modern", "berr_barr")), aes(x
   guides(linetype=guide_legend(override.aes=list(alpha = .15, fill=c(time_colors[[1]], time_colors[[5]]), color = c(time_colors[[1]], time_colors[[5]]))))
 ggsave("Temperature and Diversity Overlay Comparison.pdf", width = 15, height = 7.5)
 
-#Figure S3-raw####
+#Figure S1A-raw####
 #Raw diversity
 # Adjust data for different y-axis scales
 ylim.prim <- c(-13, 47) # Temperature range
