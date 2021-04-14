@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/317962786.svg)](https://zenodo.org/badge/latestdoi/317962786)
+
 This repository contains the required R code and data files to produce all of the analyses and plots in ‘Metabolic tradeoffs control biodiversity gradients through geologic time’   
 Thomas H. Boag, William Gearty & Richard G. Stockey  
   
