@@ -1,7 +1,10 @@
 [![DOI](https://zenodo.org/badge/317962786.svg)](https://zenodo.org/badge/latestdoi/317962786)
 
 This repository contains the required R code and data files to produce all of the analyses and plots in ‘Metabolic tradeoffs control biodiversity gradients through geologic time’   
-Thomas H. Boag, William Gearty & Richard G. Stockey  
+Thomas H. Boag, William Gearty & Richard G. Stockey
+Current Biology 2021
+https://doi.org/10.1016/j.cub.2021.04.021
+
   
 Before running these R scripts, we suggest that you download this folder and set it as your R working directory. Required data files should then load when called in each script, and plot files will save within the same folder.  
 
